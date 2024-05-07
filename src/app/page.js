@@ -1,11 +1,17 @@
-import Image from "next/image";
 import styles from "./page.module.css";
+import Header from "./header/header";
+import ProductCard from "./productCard/productCard";
+import Menu from "./menu/menu";
+import Footer from "./footer/footer";
 
 export default function Home() {
   return (
     <main className={styles.main}>
       <div className={styles.description}>
-        <h1>Coming Soon...</h1>
+        <Header />
+        <ProductCard />
+        <Menu />
+        <Footer />
       </div>
     </main>
   );
