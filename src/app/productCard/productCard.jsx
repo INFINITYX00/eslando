@@ -1,11 +1,18 @@
-export default function ProductCard() {
+export default function ProductCard({
+  productImage,
+  productName,
+  location,
+  highlights,
+}) {
   return (
     <>
-    <img src={productImage}/>
+      <img src={productImage} />
       <h1>{productName}</h1>
       <h3>{location}</h3>
       {highlights.map((highlight) => (
-        <div><p>{highlight}</p></div>
+        <div>
+          <p>{highlight}</p>
+        </div>
       ))}
     </>
   );

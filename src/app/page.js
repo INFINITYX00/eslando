@@ -9,7 +9,12 @@ export default function Home() {
     <main className={styles.main}>
       <div className={styles.description}>
         <Header />
-        <ProductCard />
+        <ProductCard
+          productImage={"exampleImageUrl"}
+          productName={"exampleName"}
+          location={"exampleLocation"}
+          highlights={["exampleHightLight"]}
+        />
         <Menu />
         <Footer />
       </div>
