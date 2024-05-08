@@ -1,7 +1,12 @@
 export default function ProductCard() {
   return (
     <>
-      <h1>Product Card</h1>
+    <img src={productImage}/>
+      <h1>{productName}</h1>
+      <h3>{location}</h3>
+      {highlights.map((highlight) => (
+        <div><p>{highlight}</p></div>
+      ))}
     </>
   );
 }
