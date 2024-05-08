@@ -1,9 +1,9 @@
 import "./carouselCard.css";
 
-export default function CarouselCard() {
+export default function CarouselCard({ material }) {
   return (
     <div className="carouselCard">
-      <p>Card</p>
+      <p>{material}</p>
     </div>
   );
 }

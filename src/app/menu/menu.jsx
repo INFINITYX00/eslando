@@ -5,14 +5,14 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { Accordion } from "react-bootstrap";
 import Materials from "./materials/materials";
 
-export default function Menu() {
+export default function Menu({ data }) {
   return (
     <>
       <Accordion defaultActiveKey="0">
         <Accordion.Item eventKey="0">
           <Accordion.Header>Materials</Accordion.Header>
           <Accordion.Body>
-            <Materials />
+            <Materials materials={data.materials} />
           </Accordion.Body>
         </Accordion.Item>
         <Accordion.Item eventKey="1">

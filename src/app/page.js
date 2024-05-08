@@ -5,6 +5,9 @@ import Menu from "./menu/menu";
 import Footer from "./footer/footer";
 
 export default function Home() {
+  let menuData = {
+    materials: ["cotton", "wool"],
+  };
   return (
     <main className={styles.main}>
       <div className={styles.description}>
@@ -15,7 +18,7 @@ export default function Home() {
           location={"exampleLocation"}
           highlights={["exampleHightLight"]}
         />
-        <Menu />
+        <Menu data={menuData} />
         <Footer />
       </div>
     </main>
