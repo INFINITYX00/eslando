@@ -10,7 +10,7 @@ export default function ProductCard({
       <h1>{productName}</h1>
       <h3>{location}</h3>
       {highlights.map((highlight) => (
-        <div>
+        <div key={highlight}>
           <p>{highlight}</p>
         </div>
       ))}
