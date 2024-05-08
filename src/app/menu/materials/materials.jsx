@@ -4,8 +4,9 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./materials.css";
 
 import { Carousel } from "react-bootstrap";
+import CarouselCard from "./carouselCard/carouselCard";
 
-import Title from "@/app/title/title";
+import Title from "@/app/menu/title/title";
 
 export default function Materials() {
   return (
@@ -13,23 +14,24 @@ export default function Materials() {
       <Title titleText={"Materials"} />
       <Carousel>
         <Carousel.Item>
+          <CarouselCard />
           <Carousel.Caption>
             <h3>First slide label</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            <p>Example card 1</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
+          <CarouselCard />
           <Carousel.Caption>
             <h3>Second slide label</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p>Example card 2</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
+          <CarouselCard />
           <Carousel.Caption>
             <h3>Third slide label</h3>
-            <p>
-              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-            </p>
+            <p>Example card 3</p>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
