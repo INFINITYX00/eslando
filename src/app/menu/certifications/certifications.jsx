@@ -5,14 +5,14 @@ export default function Certifications({ certifications }) {
   return (
     <div>
       <Title title="Certifications" />
-      {certifications.recycle && (
+      {certifications.BCorp && (
         <div>
-          <img src="recycleImage" alt="recyle image" />
+          <img src="recycleImage" alt="BCorp image" />
         </div>
       )}
-      {certifications.wash && (
+      {certifications.GOTS && (
         <div>
-          <img src="washImage" alt="wash image" />
+          <img src="washImage" alt="GOTS image" />
         </div>
       )}
     </div>
