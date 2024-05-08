@@ -13,6 +13,13 @@ export default function Home() {
 				instruction: 'exampleInstruction',
 			},
 		],
+		recycle: [
+			{
+				name: 'Recycle Shop 1',
+				address: '123 Fake Street',
+				phone: '0756116675',
+			},
+		],
 	};
 
 	return (
