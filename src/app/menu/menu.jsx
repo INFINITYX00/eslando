@@ -7,11 +7,12 @@ import Materials from "./materials/materials";
 import CareInstructions from "./careInstructions/careInstructions";
 import Recycle from "./recycle/recycle";
 import Certifications from "./certifications/certifications";
+import "./menu.css";
 
 export default function Menu({ data }) {
   return (
     <>
-      <Accordion defaultActiveKey="0">
+      <Accordion className="">
         <Accordion.Item eventKey="0">
           <Accordion.Header>Materials</Accordion.Header>
           <Accordion.Body>
