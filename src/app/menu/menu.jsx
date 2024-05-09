@@ -11,7 +11,7 @@ import Certifications from "./certifications/certifications";
 export default function Menu({ data }) {
   return (
     <>
-      <Accordion defaultActiveKey="0">
+      <Accordion>
         <Accordion.Item eventKey="0">
           <Accordion.Header>Materials</Accordion.Header>
           <Accordion.Body>
