@@ -1,5 +1,15 @@
-.carouselCard{
-    width: 100%;
-    height: 300px;
-    background-color: grey;
+.carouselCard {
+  width: 100%;
+  height: 300px;
+  background-color: white;
+}
+.carousel-control-next-icon {
+  background-image: url(https://www.svgrepo.com/show/27797/right-arrow.svg);
+}
+.carousel-control-prev-icon {
+  background-image: url(https://www.svgrepo.com/show/108986/left-arrow.svg);
+}
+.carousel-indicators [data-bs-target] {
+  background-color: black;
+  color: black;
 }
