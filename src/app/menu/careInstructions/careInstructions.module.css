@@ -1,0 +1,17 @@
+.image {
+  height: auto;
+  max-width: 50px;
+}
+
+.careInstructions {
+  margin: 0;
+  padding: 0;
+}
+
+.instructionItem {
+  display: flex;
+  list-style: none;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+}
