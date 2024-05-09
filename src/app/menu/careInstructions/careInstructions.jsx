@@ -14,7 +14,9 @@ export default function CareInstructions({ careInstructions }) {
               src="./washlabel.png"
               alt="Instruction"
             />
-            <p>{instruction.instruction}</p>
+
+            
+            <span>{instruction.instruction}</span>
           </li>
         ))}
       </ul>
