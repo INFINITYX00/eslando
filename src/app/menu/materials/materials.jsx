@@ -14,7 +14,7 @@ export default function Materials({ materials }) {
       <Title titleText={"Materials"} />
       <Carousel>
         {materials.map((material) => (
-          <Carousel.Item key={material}>
+          <Carousel.Item key={material.key}>
             <CarouselCard material={material} />
           </Carousel.Item>
         ))}
