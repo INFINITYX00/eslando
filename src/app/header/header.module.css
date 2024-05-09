@@ -1,0 +1,10 @@
+.dppIcon {
+  height: auto;
+  margin: 10px;
+  width: 50px;
+}
+
+.header {
+  border-bottom: 1px solid #e8e8e8;
+  box-shadow: 5px 5px 5px #e8e8e8;
+}
