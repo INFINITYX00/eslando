@@ -21,7 +21,7 @@ export default function ProductCard({
         {highlights.map((highlight) => (
           <div className={ProductCSS.highlightContainer} key={highlight}>
             <p className={ProductCSS.pHighlightCard}>{highlight}</p>
-          </div>
+          </div> //comment
         ))}
       </div>
     </>
