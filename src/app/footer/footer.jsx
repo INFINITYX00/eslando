@@ -1,9 +1,13 @@
-import "./footer.css";
+import FooterCSS from "./footer.module.css";
 
 export default function Footer() {
   return (
     <>
-      <h1 className="footerh1">Footer</h1>
+      <footer className={FooterCSS.footer}>
+        <p className={FooterCSS.footerP}>
+          Powered by <b> Relabel</b>
+        </p>
+      </footer>
     </>
   );
 }
