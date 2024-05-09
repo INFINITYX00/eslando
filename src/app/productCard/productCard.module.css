@@ -1,0 +1,24 @@
+.image {
+  width: 100%;
+  max-width: 200px;
+}
+
+.productName {
+  color: red;
+}
+
+.productBrand {
+  color: green;
+}
+
+.productLocation {
+  color: yellow;
+}
+
+.highlightContainer {
+  width: 200px;
+}
+
+.pHighlightCard {
+  background-color: aqua;
+}

@@ -10,7 +10,8 @@ export default function ProductCard({
     <>
       <img
         className={ProductCSS.image}
-        src={productImage}
+        // src={productImage}
+        src="https://i.ebayimg.com/images/g/tTMAAOSwkClcdKBR/s-l1200.jpg"
         alt="Picture of clothes"
       />
       <h1 className={ProductCSS.productName}>{productName}</h1>
