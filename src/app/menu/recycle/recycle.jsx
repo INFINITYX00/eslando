@@ -22,7 +22,7 @@ export default function Recycle({ recycle }) {
         <div>
           {recycle.map((shop) => (
             <div className="shopCard" key={shop.name}>
-              <h3>{shop.name}</h3>
+              <h4>{shop.name}</h4>
               <p>
                 <img src="address.svg" alt="address icon" />
                 {shop.address}
