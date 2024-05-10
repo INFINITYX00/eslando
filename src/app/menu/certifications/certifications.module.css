@@ -1,11 +1,13 @@
 .bcorpImage {
   height: auto;
   max-width: 65px;
+  background-color: white;
 }
 
 .gotsImage {
   height: auto;
   max-width: 100px;
+  background-color: white;
 }
 
 .imgContainer {
@@ -13,4 +15,5 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
+  background-color: white;
 }

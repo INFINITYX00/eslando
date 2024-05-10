@@ -11,7 +11,7 @@ export default function CarouselCard({ material }) {
                 return <h1 key={key}>{value}</h1>;
               } else {
                 return (
-                  <div key={key}>
+                  <div className="textDiv" key={key}>
                     <p>{value}</p>
                   </div>
                 );
