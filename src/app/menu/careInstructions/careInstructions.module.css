@@ -1,6 +1,7 @@
 .image {
   height: auto;
   max-width: 50px;
+  background-color: white;
 }
 
 .careInstructions {
@@ -14,4 +15,8 @@
   justify-content: flex-start;
   align-items: center;
   gap: 20px;
+  background-color: white;
+}
+.instructionItem span {
+  background-color: white;
 }
