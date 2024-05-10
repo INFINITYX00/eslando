@@ -20,15 +20,19 @@ export default function Recycle({ recycle }) {
       </form>
       {displayShops && (
         <div>
-          <ul>
-            {recycle.map((shop) => (
-              <li key={shop.name}>
-                <h3>{shop.name}</h3>
-                <p>{shop.address}</p>
-                <p>{shop.phone}</p>
-              </li>
-            ))}
-          </ul>
+          {recycle.map((shop) => (
+            <div className="shopCard" key={shop.name}>
+              <h3>{shop.name}</h3>
+              <p>
+                <img src="address.svg" alt="address icon" />
+                {shop.address}
+              </p>
+              <p>
+                <img src="phone.svg" alt="phone icons" />
+                {shop.phone}
+              </p>
+            </div>
+          ))}
         </div>
       )}
     </>
