@@ -5,8 +5,8 @@
 }
 
 .inputField {
-  display: grid;
-  grid-template-columns: 4fr 1fr;
+  display: flex;
+  gap: 5px;
   padding: 0 10px 0px 10px;
   background-color: white;
 }
@@ -19,10 +19,8 @@
 
 .inputField button {
   background-color: white;
-  border: none;
-  border-top: 1px solid;
-  border-right: 1px solid;
-  border-bottom: 1px solid;
+  border: 1px solid;
+  width: 20%;
   border-radius: 2px;
 }
 
@@ -55,4 +53,5 @@
 }
 .inputField input {
   background-color: white;
+  width: 80%;
 }
