@@ -1,0 +1,16 @@
+.bcorpImage {
+  height: auto;
+  max-width: 65px;
+}
+
+.gotsImage {
+  height: auto;
+  max-width: 100px;
+}
+
+.imgContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
