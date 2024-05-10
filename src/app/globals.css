@@ -1,4 +1,15 @@
 /*
+  VARIABLES
+*/
+:root {
+  --mainBgColour: #f8f8f8;
+}
+
+* {
+  background-color: var(--mainBgColour);
+}
+
+/*
   1. Use a more-intuitive box-sizing model.
 */
 *,

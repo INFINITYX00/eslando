@@ -2,10 +2,16 @@
   margin: 10px;
   text-align: center;
   width: 100%;
+  box-shadow: 5px -5px 5px #e8e8e8;
   padding-top: 10px;
   border-top: 1px solid #e8e8e8;
-  box-shadow: 5px -5px 5px #e8e8e8;
+  background-color: white;
 }
+
+.footer b {
+  background-color: white;
+}
+
 .footer {
   display: flex;
   justify-content: center;
