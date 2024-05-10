@@ -1,0 +1,27 @@
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+.inputField{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    padding: 0 10px 10px 10px;
+}
+
+.recycleHeading{
+    font-size: medium;
+    padding: 10px 0;
+}
+
+.inputField button{
+    background-color: white;
+    border: none;
+    border-top: 1px solid;
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+    border-radius: 2px;
+}
+
+.inputField input{
+}
