@@ -2,6 +2,7 @@
   --bs-accordion-btn-bg: white;
   margin: 0 0 5px 0;
   background-color: white;
+  --bs-accordion-border-radius: 0;
 }
 
 .accordion-button:not(.collapsed) {

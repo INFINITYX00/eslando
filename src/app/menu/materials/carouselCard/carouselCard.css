@@ -7,6 +7,8 @@
 
 .borderbox {
   /* background: linear-gradient(to bottom right, rgb(244, 244, 244), rgb(222, 221, 221)); */
+  margin: 0px 10px 10px 0px;
+  padding: 10px;
   border-style: initial;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
   border-radius: 15px;
