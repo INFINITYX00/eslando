@@ -9,7 +9,7 @@ export default function Recycle({ recycle }) {
   async function handleSumbit(e) {
     e.preventDefault();
     const lonLat = await getLonLat(formData);
-    console.log(lonLat);
+    getShops(lonLat);
     setDisplayShops(true);
   }
 
@@ -34,30 +34,28 @@ export default function Recycle({ recycle }) {
           "Content-Type": "application/json",
           "X-Goog-Api-Key": "AIzaSyCUs2wRbLfndCUcX1eJOh2q5bKOZJEfM04",
         },
-        body: {
+        body: JSON.stringify({
           input: "recycle",
           locationBias: {
             circle: {
               center: {
-                latitude: JSON.stringify(lonLat.lat),
-                longitude: JSON.stringify(lonLat.lon),
+                latitude: lonLat.lat,
+                longitude: lonLat.lon,
               },
-              radius: 500.0,
+              radius: "500.0",
             },
           },
-        },
+        }),
       }
     );
     const json = await response.json();
+    const shops = json.suggestions.map((suggestion) => ({
+      name: suggestion.placePrediction.structuredFormat.mainText.text,
+      address: suggestion.placePrediction.structuredFormat.secondaryText.text,
+      phone: "unknown",
+    }));
+    setShops(shops);
   }
-
-  //event handler for form submission ✅
-  //geocode call ✅
-  // collect info from geocode and save to variables ✅
-  // create new api request
-  // make new api request
-  // store responses to variables
-  // return in jsx
 
   return (
     <>
@@ -74,7 +72,7 @@ export default function Recycle({ recycle }) {
       </form>
       {displayShops && (
         <div>
-          {recycle.map((shop) => (
+          {shops.map((shop) => (
             <div className="shopCard" key={shop.name}>
               <h4>{shop.name}</h4>
               <p>
