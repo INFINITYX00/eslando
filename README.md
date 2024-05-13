@@ -40,10 +40,8 @@ The Digital Product Passport for Eslando is a web application that serves as a c
 ## Features
 
 - User-friendly interface for creating and managing digital passports
-- Real-time tracking of product information and recycling options
-- Secure authentication and authorization system
+- Tracking of product information and recycling options
 - Integration with external databases and APIs for comprehensive product information
-- Analytics dashboard for insights into recycling trends and patterns
 
 ## Motivation
 
@@ -74,6 +72,7 @@ In the future, we plan to enhance the Digital Product Passport for Eslando by:
 - Adding support for additional product categories and certifications
 - Improving accessibility features for users with disabilities
 - Integrating machine learning algorithms for predictive analytics on recycling trends
+- Secure authentication and authorization system
 
 ## Accessing the Deployed Application
 
@@ -89,7 +88,7 @@ For additional support or documentation, please refer to the project's documenta
 
 ## Credits
 
-- Special thanks to [Contributor 1] ([GitHub](https://github.com/contributor1)) and [Contributor 2] ([GitHub](https://github.com/contributor2)) and [Contributor 3] ([GitHub](https://github.com/contributor3)) and [Contributor 4] ([GitHub](https://github.com/contributor4)) and [Contributor 5] ([GitHub](https://github.com/contributor5)) for their contributions to the project.
+- Special thanks to [Alex Curwood] ([GitHub](https://github.com/alexcurwood)) and [David Adam Silva] ([GitHub](https://github.com/DavidAdam1323)) and [Emma Nolan] ([GitHub](https://github.com/eminaction)) and [Gavin Persad] ([GitHub](https://github.com/Gavin-Persad)) and [Holly Massey] ([GitHub](https://github.com/hollrosey)) for their contributions to the project.
 
 ## License
 
