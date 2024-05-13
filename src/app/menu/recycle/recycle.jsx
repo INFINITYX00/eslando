@@ -14,8 +14,9 @@ export default function Recycle({ recycle }) {
   }
 
   async function getLonLat(location) {
+    const geoapifyKey = process.env.NEXT_PUBLIC_GEOAPIFY_API_KEY;
     const response = await fetch(
-      `https://api.geoapify.com/v1/geocode/search?text=${location}&apiKey=26a56432f8904934afefd8216f56ce74`
+      `https://api.geoapify.com/v1/geocode/search?text=${location}&apiKey=${geoapifyKey}`
     );
     const data = await response.json();
     const lonLat = {
@@ -26,13 +27,14 @@ export default function Recycle({ recycle }) {
   }
 
   async function getShops(lonLat) {
+    const googlePlacesApiKey = process.env.NEXT_PUBLIC_GOOGLE_PLACES_API_KEY;
     const response = await fetch(
       "https://places.googleapis.com/v1/places:autocomplete",
       {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
-          "X-Goog-Api-Key": "AIzaSyCUs2wRbLfndCUcX1eJOh2q5bKOZJEfM04",
+          "X-Goog-Api-Key": googlePlacesApiKey,
         },
         body: JSON.stringify({
           input: "recycle",
