@@ -1,11 +1,11 @@
 # Digital Product Passport for Eslando
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-![GitHub last commit](https://img.shields.io/github/last-commit/your-github-repo/your-project)
-![GitHub contributors](https://img.shields.io/github/contributors/your-github-repo/your-project)
-![GitHub issues](https://img.shields.io/github/issues/your-github-repo/your-project)
-![GitHub forks](https://img.shields.io/github/forks/your-github-repo/your-project)
-![GitHub stars](https://img.shields.io/github/stars/your-github-repo/your-project)
+![GitHub last commit](https://img.shields.io/github/last-commit/INFINITYX00/eslando)
+![GitHub contributors](https://img.shields.io/github/contributors/INFINITYX00/eslando)
+![GitHub issues](https://img.shields.io/github/issues/INFINITYX00/eslando)
+![GitHub forks](https://img.shields.io/github/forks/INFINITYX00/eslando)
+![GitHub stars](https://img.shields.io/github/stars/INFINITYX00/eslando)
 
 ## Table of Contents
 
@@ -77,7 +77,7 @@ In the future, we plan to enhance the Digital Product Passport for Eslando by:
 
 ## Accessing the Deployed Application
 
-The Digital Product Passport for Eslando is deployed on Vercel, a cloud platform for deploying applications. You can access the deployed application [here](#). Feel free to explore the application and provide any feedback or suggestions for improvement.
+The Digital Product Passport for Eslando is deployed on Vercel, a cloud platform for deploying applications. You can access the deployed application [here](https://eslando.vercel.app/). Feel free to explore the application and provide any feedback or suggestions for improvement.
 
 ## Community Engagement
 
@@ -89,8 +89,7 @@ For additional support or documentation, please refer to the project's documenta
 
 ## Credits
 
-- Developed by [Your Name] ([GitHub](https://github.com/your-github-profile))
-- Special thanks to [Contributor 1] ([GitHub](https://github.com/contributor1)) and [Contributor 2] ([GitHub](https://github.com/contributor2)) for their contributions to the project.
+- Special thanks to [Contributor 1] ([GitHub](https://github.com/contributor1)) and [Contributor 2] ([GitHub](https://github.com/contributor2)) and [Contributor 3] ([GitHub](https://github.com/contributor3)) and [Contributor 4] ([GitHub](https://github.com/contributor4)) and [Contributor 5] ([GitHub](https://github.com/contributor5)) for their contributions to the project.
 
 ## License
 
