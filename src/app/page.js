@@ -12,7 +12,10 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <div className={styles.description}>
-        <LandingPage />
+        <LandingPage 
+        productName={data.name}
+        brand={data.brand}
+        />
         <Header />
         <ProductCard
           productImage={data.imageUrl}

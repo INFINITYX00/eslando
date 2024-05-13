@@ -6,7 +6,8 @@ import LandingCSS from "./landing-page.module.css";
 // This component will be displayed when the user first visits the website
 // As the user scrolls down the page, the landing page will be hidden
 
-export default function LandingPage() {
+export default function LandingPage({ productName,
+    brand}) {
   // State to determine if the landing page should be displayed
   const [showLandingPage, setShowLandingPage] = useState(true);
 
@@ -48,10 +49,10 @@ export default function LandingPage() {
           <p>
             LET&apos;S FIND OUT MORE ABOUT YOUR
             <br />
-            <b>FLEECE DENIM JACKET</b> <br />
+            <b>{productName}</b> <br />
             FROM
             <br />
-            <b>DENIMOLOGY</b>
+            <b>{brand}</b>
           </p>
         </div>
         <div className={LandingCSS.landingScroll}>
