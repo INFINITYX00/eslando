@@ -52,11 +52,65 @@ export default function Recycle({ recycle }) {
       }
     );
     const json = await response.json();
-    const shops = json.suggestions.map((suggestion) => ({
-      name: suggestion.placePrediction.structuredFormat.mainText.text,
-      address: suggestion.placePrediction.structuredFormat.secondaryText.text,
+    const shopIds = json.suggestions.map((suggestion) => ({
+      id: suggestion.placePrediction.placeId,
     }));
+
+    const shops = [];
+
+    await Promise.all(
+      shopIds.map(async (shop) => {
+        const shopData = await getPlace(shop.id);
+        shops.push(shopData);
+      })
+    );
     setShops(shops);
+  }
+
+  async function getPlace(placeId) {
+    const googlePlacesApiKey = process.env.NEXT_PUBLIC_GOOGLE_PLACES_API_KEY;
+
+    const response = await fetch(
+      `https://places.googleapis.com/v1/places/${placeId}`,
+      {
+        headers: {
+          "X-Goog-FieldMask":
+            "displayName,formattedAddress,currentOpeningHours,nationalPhoneNumber,rating",
+          "X-Goog-Api-Key": googlePlacesApiKey,
+        },
+      }
+    );
+    const json = await response.json();
+
+    let placeName = "Not Available";
+    let placeAddress = "Not Available";
+    let placePhone = "Not Available";
+    let placeRating = "Not Available";
+    let placeHours = "Not Available";
+
+    if (json.displayName.text) {
+      placeName = json.displayName.text;
+    }
+    if (json.formattedAddress) {
+      placeAddress = json.formattedAddress;
+    }
+    if (json.nationalPhoneNumber) {
+      placePhone = json.nationalPhoneNumber;
+    }
+    if (json.rating) {
+      placeRating = json.rating;
+    }
+    if (json.currentOpeningHours) {
+      placeHours = json.currentOpeningHours.weekdayDescriptions;
+    }
+
+    return {
+      name: placeName,
+      address: placeAddress,
+      phone: placePhone,
+      rating: placeRating,
+      hours: placeHours,
+    };
   }
 
   return (
