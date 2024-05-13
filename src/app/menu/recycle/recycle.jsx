@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./recycle.css";
+import { Carousel, CarouselItem } from "react-bootstrap";
 
 export default function Recycle({ recycle }) {
   const [displayShops, setDisplayShops] = useState(false);
@@ -54,7 +55,6 @@ export default function Recycle({ recycle }) {
     const shops = json.suggestions.map((suggestion) => ({
       name: suggestion.placePrediction.structuredFormat.mainText.text,
       address: suggestion.placePrediction.structuredFormat.secondaryText.text,
-      phone: "unknown",
     }));
     setShops(shops);
   }
@@ -73,21 +73,19 @@ export default function Recycle({ recycle }) {
         </div>
       </form>
       {displayShops && (
-        <div>
+        <Carousel>
           {shops.map((shop) => (
-            <div className="shopCard" key={shop.name}>
-              <h4>{shop.name}</h4>
-              <p>
-                <img src="address.svg" alt="address icon" />
-                {shop.address}
-              </p>
-              <p>
-                <img src="phone.svg" alt="phone icons" />
-                {shop.phone}
-              </p>
-            </div>
+            <CarouselItem key={shop.name}>
+              <div className="shopCard">
+                <h4>{shop.name}</h4>
+                <p>
+                  <img src="address.svg" alt="address icon" />
+                  {shop.address}
+                </p>
+              </div>
+            </CarouselItem>
           ))}
-        </div>
+        </Carousel>
       )}
     </>
   );
