@@ -1,0 +1,11 @@
+/* landing-page.module.css */
+.landingWrapper {
+  background-color: #f5f5f5;
+  min-height: 100vh;
+
+  /* Your landing page styles */
+}
+
+.hidden {
+  display: none;
+}
