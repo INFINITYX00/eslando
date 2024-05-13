@@ -82,11 +82,11 @@ export default function Recycle({ recycle }) {
     );
     const json = await response.json();
 
-    let placeName = "Not Available";
-    let placeAddress = "Not Available";
-    let placePhone = "Not Available";
-    let placeRating = "Not Available";
-    let placeHours = "Not Available";
+    let placeName = undefined;
+    let placeAddress = undefined;
+    let placePhone = undefined;
+    let placeRating = undefined;
+    let placeHours = undefined;
 
     if (json.displayName.text) {
       placeName = json.displayName.text;
@@ -132,10 +132,34 @@ export default function Recycle({ recycle }) {
             <CarouselItem key={shop.name}>
               <div className="shopCard">
                 <h4>{shop.name}</h4>
+
                 <p>
                   <img src="address.svg" alt="address icon" />
                   {shop.address}
                 </p>
+
+                {shop.phone && (
+                  <p>
+                    <img src="phone.svg" alt="phone icon" />
+                    {shop.phone}
+                  </p>
+                )}
+
+                {shop.rating && (
+                  <p>
+                    <img src="star.svg" alt="star icon" />
+                    {shop.rating}
+                  </p>
+                )}
+
+                {shop.hours && (
+                  <p>
+                    <img src="hour.svg" alt="hour icon" />
+                    {shop.hours.map((day) => (
+                      <p key={day}>{day}</p>
+                    ))}
+                  </p>
+                )}
               </div>
             </CarouselItem>
           ))}
