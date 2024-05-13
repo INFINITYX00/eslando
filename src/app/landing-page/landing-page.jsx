@@ -56,7 +56,7 @@ export default function LandingPage() {
         </div>
         <div className={LandingCSS.landingScroll}>
           <p>SCROLL DOWN</p>
-          <img src="arrow-down-svgrepo-com.svg" />
+          <img className={LandingCSS.arrow} src="arrow-down-svgrepo-com.svg" />
         </div>
         </div>
     </>

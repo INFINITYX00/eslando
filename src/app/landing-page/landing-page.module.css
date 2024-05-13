@@ -14,20 +14,24 @@
 .hidden {
   display: none;
 }
+
 .landingText {
   position: absolute;
   top: 40%;
   background-color: transparent;
   width: 100%;
 }
+
 .landingText p {
   text-align: center;
   background-color: transparent;
   font-size: 18px;
 }
+
 .landingText b {
   background-color: transparent;
 }
+
 .header {
   position: absolute;
   top: 5%;
@@ -41,19 +45,43 @@
   text-align: center;
   font-weight: bold;
 }
+
 .landingScroll {
   position: absolute;
   top: 80%;
   background-color: transparent;
   width: 100%;
 }
+
 .landingScroll p {
   background-color: transparent;
   text-align: center;
   margin-bottom: 0;
 }
+
 .landingScroll img {
   background-color: transparent;
   width: 10%;
   margin: 0 auto;
+}
+
+
+.arrow {
+    align-self: flex-end;
+    animation: arrowBounce 2s infinite;
+    margin: 0 auto;
+    transform-origin: bottom;
+}
+.arrowBounce {
+    animation-name: arrowBounce;
+    animation-timing-function: ease;
+}
+@keyframes arrowBounce {
+    0%   { transform: scale(1,1)    translateY(0); }
+    10%  { transform: scale(1.1,.9) translateY(0); }
+    30%  { transform: scale(.9,1.1) translateY(-10px); }
+    50%  { transform: scale(1,1)    translateY(0); }
+    57%  { transform: scale(1,1)    translateY(-7px); }
+    64%  { transform: scale(1,1)    translateY(0); }
+    100% { transform: scale(1,1)    translateY(0); }
 }
