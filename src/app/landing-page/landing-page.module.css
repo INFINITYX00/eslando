@@ -1,3 +1,7 @@
 .test {
     color: red;
 }
+
+.landingWrapper {
+    min-height: 100vh;
+}
