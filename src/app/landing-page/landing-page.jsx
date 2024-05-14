@@ -15,6 +15,7 @@ export default function LandingPage({ productName, brand }) {
     const handleScroll = () => {
       // Check if the user has scrolled down the page
       if (window.scrollY > 0) {
+        console.log("hello world!");
         // Hide the landing page
         setShowLandingPage(false);
       }
