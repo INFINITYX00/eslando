@@ -7,7 +7,7 @@ import Footer from "./footer/footer";
 import productData from "../../productData";
 
 export default function Home() {
-  let data = productData[0].product1;
+  let data = productData[1].product;
 
   return (
     <main className={styles.main}>
