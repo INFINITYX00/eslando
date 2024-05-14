@@ -132,36 +132,42 @@ export default function Recycle({ recycle }) {
         <Carousel>
           {shops.map((shop) => (
             <CarouselItem key={shop.name}>
-              <div className="shopCard">
-                <h4>{shop.name}</h4>
+              <div className="carouselItem">
+                <div className="shopCard">
+                  <h4>{shop.name}</h4>
 
-                <p>
-                  <img src="address.svg" alt="address icon" />
-                  {shop.address}
-                </p>
-
-                {shop.phone && (
                   <p>
-                    <img src="phone.svg" alt="phone icon" />
-                    {shop.phone}
+                    <img src="address.svg" alt="address icon" />
+                    {shop.address}
                   </p>
-                )}
 
-                {shop.rating && (
-                  <p>
-                    <img src="star.svg" alt="star icon" />
-                    {shop.rating}
-                  </p>
-                )}
+                  {shop.phone && (
+                    <p>
+                      <img src="phone.svg" alt="phone icon" />
+                      {shop.phone}
+                    </p>
+                  )}
 
-                {shop.hours && (
-                  <p>
-                    <img src="hour.svg" alt="hour icon" />
-                    {shop.hours.map((day) => (
-                      <p key={day}>{day}</p>
-                    ))}
-                  </p>
-                )}
+                  {shop.rating && (
+                    <p>
+                      <img src="star.svg" alt="star icon" />
+                      {shop.rating}
+                    </p>
+                  )}
+
+                  {shop.hours && (
+                    <p className="openingHours">
+                      <img src="hour.svg" alt="hour icon" />
+                      <div className="hours">
+                        {shop.hours.map((day) => (
+                          <p className="day" key={day}>
+                            {day}
+                          </p>
+                        ))}
+                      </div>
+                    </p>
+                  )}
+                </div>
               </div>
             </CarouselItem>
           ))}
