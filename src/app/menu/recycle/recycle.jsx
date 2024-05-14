@@ -7,6 +7,8 @@ export default function Recycle({ recycle }) {
   const [formData, setFormData] = useState("");
   const [shops, setShops] = useState([]);
 
+  // commit
+
   async function handleSumbit(e) {
     e.preventDefault();
     const lonLat = await getLonLat(formData);
