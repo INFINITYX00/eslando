@@ -52,10 +52,10 @@ export default function LandingPage({ productName, brand }) {
           <p>
             LET&apos;S FIND OUT MORE ABOUT YOUR
             <br />
-            <b>{productName}</b> <br />
+            <b>{productName.toUpperCase()}</b> <br />
             FROM
             <br />
-            <b>{brand}</b>
+            <b>{brand.toUpperCase()}</b>
           </p>
         </div>
         <div className={LandingCSS.landingScroll}>
