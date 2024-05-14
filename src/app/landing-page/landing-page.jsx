@@ -10,25 +10,6 @@ export default function LandingPage({ productName, brand }) {
   // State to determine if the landing page should be displayed
   const [showLandingPage, setShowLandingPage] = useState(true);
 
-  //Event listener to check if the user has scrolled down the page
-  useEffect(() => {
-    const handleScroll = () => {
-      // Check if the user has scrolled down the page
-      if (window.scrollY > 0) {
-        console.log("hello world!");
-        // Hide the landing page
-        setShowLandingPage(false);
-      }
-    };
-    // Add event listener to check if the user has scrolled down the page
-    window.addEventListener("scroll", handleScroll);
-
-    // Remove event listener when the component is unmounted
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
-
   // Return the landing page component
 
   return (
