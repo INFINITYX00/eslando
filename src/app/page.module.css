@@ -2,10 +2,10 @@
   scroll-snap-type: y mandatory;
   overflow-y: scroll;
   height: 100vh;
-  scroll-behavior: inherit;
+  scroll-behavior: smooth;
 }
 
-.content,
-.landing {
-  scroll-snap-align: start;
-}
+/* .content,
+.landing { */
+/* scroll-snap-align: start; */
+/* } */
