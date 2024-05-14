@@ -1,14 +1,16 @@
 /* landing-page.module.css */
+
 .landingBackground {
   min-height: 100vh;
   position: relative;
+
   /* Your landing page styles */
 }
 
 .bgImage {
-    opacity: 0.3; 
-    min-height: 100vh;
-    object-fit: cover;
+  opacity: 0.3;
+  min-height: 100vh;
+  object-fit: cover;
 }
 
 .hidden {
@@ -65,22 +67,33 @@
   margin: 0 auto;
 }
 
-
 .arrow {
-    align-self: flex-end;
-    animation: arrowBounce 2s infinite;
-    margin: 0 auto;
-    transform-origin: bottom;
+  align-self: flex-end;
+  animation: arrowBounce 2s infinite;
+  margin: 0 auto;
+  transform-origin: bottom;
 }
 .arrowBounce {
-    animation-name: arrowBounce;
-    animation-timing-function: ease;
+  animation-name: arrowBounce;
+  animation-timing-function: ease;
 }
 @keyframes arrowBounce {
-    0%   { transform: scale(1,1)    translateY(0); }
-    10%  { transform: scale(1.1,.9) translateY(0); }
-    30%  { transform: scale(.9,1.1) translateY(-10px); }
-    50%  { transform: scale(1,1)    translateY(0); }
-    75%  { transform: scale(1,1)    translateY(0); }
-    100% { transform: scale(1,1)    translateY(0); }
+  0% {
+    transform: scale(1, 1) translateY(0);
+  }
+  10% {
+    transform: scale(1.1, 0.9) translateY(0);
+  }
+  30% {
+    transform: scale(0.9, 1.1) translateY(-10px);
+  }
+  50% {
+    transform: scale(1, 1) translateY(0);
+  }
+  75% {
+    transform: scale(1, 1) translateY(0);
+  }
+  100% {
+    transform: scale(1, 1) translateY(0);
+  }
 }

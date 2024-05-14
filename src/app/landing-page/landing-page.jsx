@@ -6,12 +6,11 @@ import LandingCSS from "./landing-page.module.css";
 // This component will be displayed when the user first visits the website
 // As the user scrolls down the page, the landing page will be hidden
 
-export default function LandingPage({ productName,
-    brand}) {
+export default function LandingPage({ productName, brand }) {
   // State to determine if the landing page should be displayed
   const [showLandingPage, setShowLandingPage] = useState(true);
 
-  // Event listener to check if the user has scrolled down the page
+  //Event listener to check if the user has scrolled down the page
   useEffect(() => {
     const handleScroll = () => {
       // Check if the user has scrolled down the page
@@ -40,7 +39,11 @@ export default function LandingPage({ productName,
             : `${LandingCSS.landingBackground} ${LandingCSS.hidden}`
         }
       >
-        <img className={LandingCSS.bgImage} src="https://images.unsplash.com/photo-1574201635302-388dd92a4c3f?q=80&w=3284&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)" alt="Clothing image"></img>
+        <img
+          className={LandingCSS.bgImage}
+          src="https://images.unsplash.com/photo-1574201635302-388dd92a4c3f?q=80&w=3284&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)"
+          alt="Clothing image"
+        ></img>
 
         <div className={LandingCSS.header}>
           <h1>RELABEL</h1>
@@ -59,7 +62,7 @@ export default function LandingPage({ productName,
           <p>SCROLL DOWN</p>
           <img className={LandingCSS.arrow} src="arrow-down-svgrepo-com.svg" />
         </div>
-        </div>
+      </div>
     </>
   );
 }
