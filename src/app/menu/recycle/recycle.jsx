@@ -156,11 +156,15 @@ export default function Recycle({ recycle }) {
                   )}
 
                   {shop.hours && (
-                    <p>
+                    <p className="openingHours">
                       <img src="hour.svg" alt="hour icon" />
-                      {shop.hours.map((day) => (
-                        <p key={day}>{day}</p>
-                      ))}
+                      <div className="hours">
+                        {shop.hours.map((day) => (
+                          <p className="day" key={day}>
+                            {day}
+                          </p>
+                        ))}
+                      </div>
                     </p>
                   )}
                 </div>
