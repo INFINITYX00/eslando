@@ -1,11 +1,16 @@
 .main {
   scroll-snap-type: y mandatory;
   overflow-y: scroll;
-  height: 100vh;
   scroll-behavior: smooth;
+  height: 100vh;
 }
 
-/* .content,
-.landing { */
-/* scroll-snap-align: start; */
-/* } */
+.content,
+.landing {
+  scroll-snap-align: start;
+  height: 100vh;
+}
+
+.content {
+  overflow-y: auto;
+}
