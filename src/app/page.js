@@ -12,17 +12,21 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <div className={styles.description}>
-        <LandingPage />
-        <Header />
-        <ProductCard
-          productImage={data.imageUrl}
-          productName={data.name}
-          brand={data.brand}
-          location={data.countryOfOrigin}
-          highlights={data.highlights}
-        />
-        <Menu data={data.menu} />
-        <Footer />
+        <div className={styles.landing}>
+          <LandingPage productName={data.name} brand={data.brand} />
+        </div>
+        <div className={styles.content}>
+          <Header />
+          <ProductCard
+            productImage={data.imageUrl}
+            productName={data.name}
+            brand={data.brand}
+            location={data.countryOfOrigin}
+            highlights={data.highlights}
+          />
+          <Menu data={data.menu} />
+          <Footer />
+        </div>
       </div>
     </main>
   );
