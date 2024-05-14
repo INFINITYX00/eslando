@@ -88,7 +88,7 @@ For additional support or documentation, please refer to the project's documenta
 
 ## Credits
 
-- Special thanks to [Alex Curwood] ([GitHub](https://github.com/alexcurwood)) and [David Adam Silva] ([GitHub](https://github.com/DavidAdam1323)) and [Emma Nolan] ([GitHub](https://github.com/eminaction)) and [Gavin Persad] ([GitHub](https://github.com/Gavin-Persad)) and [Holly Massey] ([GitHub](https://github.com/hollrosey)) for their contributions to the project.
+- Special thanks to [Alex Curwood] ([GitHub](https://github.com/alexcurwood)) and [David Adam Silva] ([GitHub](https://github.com/DavidAdam1323)) and [Emma Nolan] ([GitHub](https://github.com/eminaction)) and [Gavin Persad] ([GitHub](https://github.com/Gavin-Persad)) and [Holly Massey] ([GitHub](https://github.com/hollrosey)) for their contributions to the project. I am [Stephen Walker] ([GitHub](https://github.com/INFINITYX00)), one of the co-creators of the project.
 
 ## License
 
