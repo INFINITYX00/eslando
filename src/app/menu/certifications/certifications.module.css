@@ -17,3 +17,8 @@
   justify-content: space-around;
   background-color: var(--mainBgColour);
 }
+
+.FairtradeImage {
+  width: auto;
+  max-height: 99px;
+}

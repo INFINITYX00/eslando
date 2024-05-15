@@ -34,7 +34,7 @@ export default function Certifications({ certifications }) {
           <div>
             <img
               className={CertCSS.FairtradeImage}
-              src="./Fairtrade.svg"
+              src="./FairTrade.png"
               alt="Fairtrade image"
             />
           </div>
