@@ -1,12 +1,12 @@
 .bcorpImage {
-  height: auto;
-  max-width: 65px;
+  height: 120px;
+  width: auto;
   background-color: var(--mainBgColour);
 }
 
 .gotsImage {
-  height: auto;
-  max-width: 100px;
+  height: 99px;
+  width: auto;
   background-color: var(--mainBgColour);
 }
 
@@ -16,4 +16,9 @@
   align-items: center;
   justify-content: space-around;
   background-color: var(--mainBgColour);
+}
+
+.FairtradeImage {
+  width: auto;
+  max-height: 99px;
 }

@@ -23,22 +23,31 @@
   margin-bottom: 10px;
   font-style: italic;
 }
+
 .highlightDiv {
   display: flex;
   flex-direction: row;
+  justify-content: left;
+  gap: 30px;
+  width: 80%;
+  margin: 0 0 0 20px;
+  padding: 0;
 }
 
 .highlightContainer {
   display: flex;
-  align-items: left;
-  margin-top: 15px;
-  margin-bottom: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.highlightSVG {
+  justify-content: center;
 }
 
 .pHighlightCard {
   background-color: transparent;
-  margin-left: 20px;
   color: black;
-  padding: 9px;
+  margin: auto 0;
+  padding-left: 5px;
   font-size: 13px;
 }

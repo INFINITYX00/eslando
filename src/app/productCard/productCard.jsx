@@ -16,10 +16,11 @@ export default function ProductCard({
         {brand}, {season}
       </h2>
       <h3 className={ProductCSS.productLocation}>Made in {location}</h3>
+
       <div className={ProductCSS.highlightDiv}>
         {highlights.map((highlight) => (
           <div className={ProductCSS.highlightContainer} key={highlight.title}>
-            <img src={highlight.svg} alt="highlight icon" />
+            <img className={ProductCSS.highlightSVG} height="30" width="30" src={highlight.svg} alt="highlight icon" />
             <p className={ProductCSS.pHighlightCard}>{highlight.title}</p>
           </div>
         ))}

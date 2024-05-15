@@ -16,7 +16,7 @@ export default function Certifications({ certifications }) {
           <div>
             <img
               className={CertCSS.bcorpImage}
-              src="./bcorp.png"
+              src="./Bcorp-icon.png"
               alt="BCorp image"
             />
           </div>
@@ -34,7 +34,7 @@ export default function Certifications({ certifications }) {
           <div>
             <img
               className={CertCSS.FairtradeImage}
-              src="./Fairtrade.svg"
+              src="./FairTrade.png"
               alt="Fairtrade image"
             />
           </div>
@@ -48,7 +48,7 @@ export default function Certifications({ certifications }) {
           <div>
             <img
               className={CertCSS.gotsImage}
-              src="./gots.png"
+              src="./GOTS.png"
               alt="GOTS image"
             />
           </div>
