@@ -15,26 +15,24 @@ export default function Home() {
   let data = productData[searchParams[1]].product;
 
   return (
-    <Suspense>
-      <main className={styles.main}>
-        <div className={styles.description}>
-          <div className={styles.landing}>
-            <LandingPage productName={data.name} brand={data.brand} />
-          </div>
-          <div className={styles.content}>
-            <Header />
-            <ProductCard
-              productImage={data.imageUrl}
-              productName={data.name}
-              brand={data.brand}
-              location={data.countryOfOrigin}
-              highlights={data.highlights}
-            />
-            <Menu data={data.menu} />
-            <Footer />
-          </div>
+    <main className={styles.main}>
+      <div className={styles.description}>
+        <div className={styles.landing}>
+          <LandingPage productName={data.name} brand={data.brand} />
         </div>
-      </main>
-    </Suspense>
+        <div className={styles.content}>
+          <Header />
+          <ProductCard
+            productImage={data.imageUrl}
+            productName={data.name}
+            brand={data.brand}
+            location={data.countryOfOrigin}
+            highlights={data.highlights}
+          />
+          <Menu data={data.menu} />
+          <Footer />
+        </div>
+      </div>
+    </main>
   );
 }
