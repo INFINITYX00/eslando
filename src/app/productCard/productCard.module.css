@@ -35,11 +35,10 @@
 }
 
 .pHighlightCard {
-  background-color: rgb(32, 32, 32);
+  background-color: transparent;
   margin-left: 20px;
-  color: white;
+  color: black;
   padding: 9px;
   font-weight: 400;
-  border-radius: 15px;
   font-size: 13px;
 }
