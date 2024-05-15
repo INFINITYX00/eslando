@@ -40,7 +40,7 @@ export default function LandingPage({ productName, brand }) {
           </p>
         </div>
         <div className={LandingCSS.landingScroll}>
-          <p>SCROLL DOWN</p>
+          <p>SWIPE UP</p>
           <img className={LandingCSS.arrow} src="arrow-down-svgrepo-com.svg" />
         </div>
       </div>
