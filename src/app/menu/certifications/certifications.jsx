@@ -48,7 +48,7 @@ export default function Certifications({ certifications }) {
           <div>
             <img
               className={CertCSS.gotsImage}
-              src="./gots.png"
+              src="./GOTS.png"
               alt="GOTS image"
             />
           </div>

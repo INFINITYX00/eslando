@@ -1,12 +1,12 @@
 .bcorpImage {
-  height: auto;
-  max-width: 65px;
+  height: 120px;
+  width: auto;
   background-color: var(--mainBgColour);
 }
 
 .gotsImage {
-  height: auto;
-  max-width: 100px;
+  height: 99px;
+  width: auto;
   background-color: var(--mainBgColour);
 }
 
