@@ -10,11 +10,7 @@ export default function ProductCard({
 }) {
   return (
     <>
-      <img
-        className={ProductCSS.image}
-        src={productImage}
-        alt="Picture of clothes"
-      />
+      <img className={ProductCSS.image} src={productImage} />
       <h1 className={ProductCSS.productName}>{productName}</h1>
       <h2 className={ProductCSS.productBrand}>
         {brand}, {season}

@@ -5,10 +5,9 @@ import LandingPage from "./landing-page/landing-page";
 import Header from "./header/header";
 import ProductCard from "./productCard/productCard";
 import Menu from "./menu/menu";
-import Footer from "./footer/footer";
 import productData from "../../productData";
 import { useSearchParams } from "next/navigation";
-import { Suspense } from "react";
+
 
 export default function Home() {
   const [searchParams] = useSearchParams();
@@ -26,11 +25,11 @@ export default function Home() {
             productImage={data.imageUrl}
             productName={data.name}
             brand={data.brand}
+            season={data.season}
             location={data.countryOfOrigin}
             highlights={data.highlights}
           />
           <Menu data={data.menu} />
-          <Footer />
         </div>
       </div>
     </main>

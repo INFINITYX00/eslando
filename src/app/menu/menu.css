@@ -1,7 +1,7 @@
 .accordion {
-  --bs-accordion-btn-bg: white;
+  --bs-accordion-btn-bg: var(--mainBgColour);
   margin: 0 0 5px 0;
-  background-color: white;
+  background-color: var(--mainBgColour);
   --bs-accordion-border-radius: 0;
 }
 
@@ -16,12 +16,12 @@
 
 .accordion-button:not(.collapsed) {
   color: black;
-  background-color: white;
+  background-color: var(--mainBgColour);
 }
 
 .accordion-body {
   padding-top: 0;
-  background-color: white;
+  background-color: var(--mainBgColour);
 }
 
 .accordion-item {
@@ -29,4 +29,5 @@
   border-right: none;
   border-top: 2px solid #dee2e6;
   border-bottom: 2px solid #dee2e6;
+  background-color: var(--mainBgColour);
 }
