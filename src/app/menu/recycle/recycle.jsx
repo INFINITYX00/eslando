@@ -84,6 +84,8 @@ export default function Recycle({ recycle }) {
     );
     const json = await response.json();
 
+    // comment
+
     let placeName = undefined;
     let placeAddress = undefined;
     let placePhone = undefined;
