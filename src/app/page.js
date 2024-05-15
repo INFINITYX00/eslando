@@ -1,3 +1,5 @@
+"use client";
+
 import styles from "./page.module.css";
 import LandingPage from "./landing-page/landing-page";
 import Header from "./header/header";
@@ -5,9 +7,12 @@ import ProductCard from "./productCard/productCard";
 import Menu from "./menu/menu";
 import Footer from "./footer/footer";
 import productData from "../../productData";
+import { useSearchParams } from "next/navigation";
+import { Suspense } from "react";
 
 export default function Home() {
-  let data = productData[0].product1;
+  const [searchParams] = useSearchParams();
+  let data = productData[searchParams[1]].product;
 
   return (
     <main className={styles.main}>
