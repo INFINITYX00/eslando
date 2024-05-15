@@ -9,7 +9,7 @@ export default function Certifications({ certifications }) {
       <div className={CertCSS.imgContainer}>
         {certifications.BCI && (
           <div>
-            <img className={CertCSS.BCIImage} src="./BCI.png" alt="BCI image" />
+            <img className={CertCSS.BCIImage} src="./BCI.svg" alt="BCI image" />
           </div>
         )}
         {certifications.BCorp && (
@@ -25,7 +25,7 @@ export default function Certifications({ certifications }) {
           <div>
             <img
               className={CertCSS.BLUESIGNImage}
-              src="./BLUESIGN.png"
+              src="./BLUESIGN.svg"
               alt="BLUESIGN image"
             />
           </div>
@@ -34,14 +34,14 @@ export default function Certifications({ certifications }) {
           <div>
             <img
               className={CertCSS.FairtradeImage}
-              src="./Fairtrade.png"
+              src="./Fairtrade.svg"
               alt="Fairtrade image"
             />
           </div>
         )}
         {certifications.FSC && (
           <div>
-            <img className={CertCSS.FSCImage} src="./FSC.png" alt="FSC image" />
+            <img className={CertCSS.FSCImage} src="./FSC.svg" alt="FSC image" />
           </div>
         )}
         {certifications.GOTS && (
@@ -57,7 +57,7 @@ export default function Certifications({ certifications }) {
           <div>
             <img
               className={CertCSS.OKEOTEXImage}
-              src="./OKEOTEX.png"
+              src="./OKEOTEX.svg"
               alt="OKEOTEX image"
             />
           </div>
@@ -66,7 +66,7 @@ export default function Certifications({ certifications }) {
           <div>
             <img
               className={CertCSS.WRAPImage}
-              src="./WRAP.png"
+              src="https://wrapcompliance.org/wp-content/uploads/2022/11/Main-logo.svg"
               alt="WRAP image"
             />
           </div>
