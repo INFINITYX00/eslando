@@ -11,8 +11,8 @@ export default function ProductCard({
     <>
       <img
         className={ProductCSS.image}
-        src={productImage}
-        alt="Picture of clothes"
+        // src={productImage}
+        src="fleece-lined-jacket.jpg"
       />
       <h1 className={ProductCSS.productName}>{productName}</h1>
       <h2 className={ProductCSS.productBrand}>{brand}, {season}</h2>
