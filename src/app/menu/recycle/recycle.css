@@ -20,7 +20,8 @@
 .inputField button {
   display: block;
   background-color: var(--mainBgColour);
-  border: 1px solid;
+  border: 1px solid black;
+  color: black;
   width: 20%;
   border-radius: 5px;
   padding: 5px;
@@ -79,7 +80,7 @@
   border: solid 1px;
 }
 
-.hours{
+.hours {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 10px;
@@ -87,20 +88,20 @@
   background-color: transparent;
 }
 
-.day{
+.day {
   width: 10%;
   max-width: 10%;
   font-size: 12px;
   background-color: transparent;
 }
 
-.openingHours{
+.openingHours {
   width: 100%;
   display: grid;
   grid-template-columns: 1fr 7fr;
   background-color: transparent;
 }
 
-.openingHours img{
+.openingHours img {
   align-self: start;
 }
