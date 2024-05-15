@@ -24,7 +24,6 @@ export default function LandingPage({ productName, brand }) {
         <img
           className={LandingCSS.bgImage}
           src="https://images.unsplash.com/photo-1574201635302-388dd92a4c3f?q=80&w=3284&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)"
-          alt="Clothing image"
         ></img>
 
         <div className={LandingCSS.header}>
