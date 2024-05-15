@@ -25,6 +25,7 @@ export default function Home() {
             productImage={data.imageUrl}
             productName={data.name}
             brand={data.brand}
+            season={data.season}
             location={data.countryOfOrigin}
             highlights={data.highlights}
           />

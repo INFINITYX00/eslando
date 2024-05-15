@@ -1,7 +1,7 @@
 .image {
   height: auto;
   max-width: 50px;
-  background-color: white;
+  background-color: var(--mainBgColour);
 }
 
 .careInstructions {
@@ -15,8 +15,8 @@
   justify-content: flex-start;
   align-items: center;
   gap: 20px;
-  background-color: white;
+  background-color: var(--mainBgColour);
 }
 .instructionItem span {
-  background-color: white;
+  background-color: var(--mainBgColour);
 }

@@ -1,13 +1,13 @@
 .bcorpImage {
   height: auto;
   max-width: 65px;
-  background-color: white;
+  background-color: var(--mainBgColour);
 }
 
 .gotsImage {
   height: auto;
   max-width: 100px;
-  background-color: white;
+  background-color: var(--mainBgColour);
 }
 
 .imgContainer {
@@ -15,5 +15,5 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
-  background-color: white;
+  background-color: var(--mainBgColour);
 }
