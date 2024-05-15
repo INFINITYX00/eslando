@@ -39,11 +39,11 @@ The Digital Product Passport for Eslando is a web application that serves as a c
 
 ## Features
 
-- User-friendly Interface: The platform offers an intuitive interface for creating and managing digital passports, ensuring ease of use for both businesses and consumers.
+User-friendly Interface: The platform offers an intuitive interface for creating and managing digital passports, ensuring ease of use for both businesses and consumers.
 
-- Comprehensive Information: Users can access detailed product information, including materials, care instructions, recycling options, and certifications, facilitating informed decisions and promoting sustainability.
+Comprehensive Information: Users can access detailed product information, including materials, care instructions, recycling options, and certifications, facilitating informed decisions and promoting sustainability.
 
-- Integration with External Databases: The application integrates with external databases and APIs to provide up-to-date and comprehensive product information, enhancing the user experience and reliability of the platform.
+Integration with External Databases: The application integrates with external databases and APIs to provide up-to-date and comprehensive product information, enhancing the user experience and reliability of the platform.
 
 ## Motivation
 
