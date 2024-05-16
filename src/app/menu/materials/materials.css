@@ -1,0 +1,56 @@
+.nav-link{
+    color: black
+}
+
+.nav-tabs{
+    width: 100%
+}
+
+.carouselCard {
+    width: 100%;
+    height: 300px;
+    background-color: var(--mainBgColour);
+    padding: 20px;
+  }
+
+  .tabBox{
+    background-color: white;
+  }
+  
+  .borderbox {
+    /* background: linear-gradient(to bottom right, rgb(244, 244, 244), rgb(222, 221, 221)); */
+    margin: 0px 10px 10px 0px;
+    padding: 10px;
+    border-style: initial;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    background-color: var(--mainBgColour);
+  }
+  
+  .carousel-indicators [data-bs-target] {
+    background-color: black;
+    color: black;
+    margin-bottom: -65px;
+  }
+  
+  .carouselCard h1 {
+    text-align: left;
+    margin-left: 15%;
+    font-size: 20px;
+    font-weight: 800;
+    padding-top: 10%;
+    background-color: var(--mainBgColour);
+  }
+  
+  .carouselCard p {
+    text-align: left;
+    margin-left: 15%;
+    margin-top: 20px;
+    background-color: var(--mainBgColour);
+  }
+  .cardDiv,
+  .textDiv {
+    background-color: var(--mainBgColour);
+  }

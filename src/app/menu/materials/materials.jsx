@@ -3,19 +3,29 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./materials.css";
 
-import { Carousel, CarouselItem } from "react-bootstrap";
-import CarouselCard from "./carouselCard/carouselCard";
+import { Tab, Tabs } from "react-bootstrap";
 
 export default function Materials({ materials }) {
+  const tabs = materials;
   return (
     <div className="materials">
-      <Carousel>
+      <Tabs id="uncontrolled-tab-example" className="mb-3" fill>
         {materials.map((material) => (
-          <Carousel.Item key={material.key}>
-            <CarouselCard material={material} />
-          </Carousel.Item>
+          <Tab
+            key={material.name}
+            title={material.name}
+            eventKey={material.name}
+          >
+            {Object.entries(material).map(([key, value]) => {
+              if (key == "name") {
+                return;
+              } else {
+                return <p key="value">{value}</p>;
+              }
+            })}
+          </Tab>
         ))}
-      </Carousel>
+      </Tabs>
     </div>
   );
 }

@@ -13,45 +13,25 @@ const productData = [
       countryOfOrigin: "Vietnam",
       menu: {
         materials: [
-          [
-            {
-              name: "Outer Fabric",
-            },
-            {
-              material: "100% Organic Cotton Denim",
-            },
-            {
-              weight: "Midweight",
-            },
-            {
-              weave: "Twill Weave",
-            },
-            {
-              waterResistance: "Not Water Resistant",
-            },
-          ],
-          [
-            {
-              name: "Lining Fabric",
-            },
-            {
-              material: "Recycled Fleece",
-            },
-            {
-              weight: "Midweight",
-            },
-            {
-              breathability: "Moderately Breathable",
-            },
-          ],
-          [
-            {
-              name: "Buttons",
-            },
-            {
-              material: "Metal",
-            },
-          ],
+          {
+            name: "Outer Fabric",
+            material: "100% Organic Cotton Denim",
+            weight: "Midweight",
+            weave: "Twill Weave",
+            waterResistance: "Not Water Resistant",
+          },
+          {
+            name: "Lining Fabric",
+            material: "Recycled Fleece",
+            weight: "Midweight",
+            breathability: "Moderately Breathable",
+          },
+          {
+            name: "Buttons",
+            material: "Metal",
+            weight: "Lightweight",
+            waterResistance: "Rust Resistant",
+          },
         ],
         careInstructions: [
           {
