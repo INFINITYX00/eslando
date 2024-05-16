@@ -84,6 +84,13 @@ The Digital Product Passport for Eslando is deployed on Vercel, a cloud platform
 
 We welcome contributions from the community to help improve the Digital Product Passport for Eslando. You can contribute by submitting bug reports, feature requests, or pull requests on GitHub.
 
+## FAQs and Press Release
+
+- [FAQs](FAQS.md) - Common questions about the Digital Product Passport for Eslando.
+
+### Press Release
+- [Press Release](PRESSRELEASE.md) - Official press release for the Digital Product Passport for Eslando.
+
 ## Support and Documentation
 
 For additional support or documentation, please refer to the project's documentation [here](#). You can also reach out to the project maintainers for assistance.
