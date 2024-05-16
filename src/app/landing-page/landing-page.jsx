@@ -27,10 +27,10 @@ export default function LandingPage({ productName, brand }) {
           src="https://images.unsplash.com/photo-1574201635302-388dd92a4c3f?q=80&w=3284&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)"
         ></img>
 
-        <div className={`${LandingCSS.header} ${LandingCSS.fadeInUpAnimation} `}>
+        <div className={`${LandingCSS.header} ${LandingCSS.fadeInUpAnimation}`}>
           <h1>RELABEL</h1>
         </div>
-        <div className={`${LandingCSS.landingText} ${LandingCSS.fadeInUpAnimation} `}>
+        <div className={`${LandingCSS.landingText} ${LandingCSS.fadeInUpAnimation}`}>
           <p>
             LET&apos;S FIND OUT MORE ABOUT YOUR
             <br />
@@ -40,7 +40,7 @@ export default function LandingPage({ productName, brand }) {
             <b>{brand.toUpperCase()}</b>
           </p>
         </div>
-        <div className={`${LandingCSS.landingScroll} ${LandingCSS.fadeInUpAnimation} `}>
+        <div className={`${LandingCSS.landingScroll} ${LandingCSS.fadeInUpAnimation}`}>
           <p>SWIPE UP</p>
           <img className={LandingCSS.arrow} src="arrow-down-svgrepo-com.svg" />
         </div>
