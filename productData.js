@@ -55,8 +55,16 @@ const productData = [
         ],
         careInstructions: [
           {
-            image: "machinewash.png",
-            instruction: "Machine Wash",
+            image: "./hand-wash.svg",
+            instruction: "Hand Wash",
+          },
+          {
+            image: "./dry-flat.svg",
+            instruction: "Dry Flat",
+          },
+          {
+            image: "./iron.svg",
+            instruction: "Iron Medium (Max 150°C)",
           },
         ],
         recycle: [
@@ -82,11 +90,14 @@ const productData = [
   {
     product: {
       id: 2,
-      imageUrl:"./polyester_trousers.jpg",
+      imageUrl: "./polyester_trousers.jpg",
       name: "Polyester Trousers",
       brand: "PolyWear",
       season: "SS23",
-      highlights: ["Recycled Polyester", "Quick-drying"],
+      highlights: [
+        { svg: "./recyclable.svg", title: "Recycled Polyester" },
+        { svg: "./drying.svg", title: "Quick-drying" },
+      ],
       countryOfOrigin: "China",
       menu: {
         materials: [
@@ -107,8 +118,16 @@ const productData = [
         ],
         careInstructions: [
           {
-            image: "machinewash.png",
+            image: "./wash.svg",
             instruction: "Machine Wash",
+          },
+          {
+            image: "./iron.svg",
+            instruction: "Iron Cool (Max 110°C)",
+          },
+          {
+            image: "./tumble.svg",
+            instruction: "Tumble Dry on Low Heat",
           },
         ],
         recycle: [

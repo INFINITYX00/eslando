@@ -1,6 +1,6 @@
 .image {
   height: auto;
-  max-width: 50px;
+  width: 40px;
   background-color: var(--mainBgColour);
 }
 
@@ -14,6 +14,7 @@
   list-style: none;
   justify-content: flex-start;
   align-items: center;
+  padding: 10px 0;
   gap: 20px;
   background-color: var(--mainBgColour);
 }

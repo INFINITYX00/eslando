@@ -8,14 +8,8 @@ export default function CareInstructions({ careInstructions }) {
       <ul className={CareCSS.careInstructions}>
         {careInstructions.map((instruction) => (
           <li className={CareCSS.instructionItem} key={instruction.instruction}>
-            <img
-              className={CareCSS.image}
-              //   src={instruction.image}
-              src="./washlabel.png"
-              alt="Instruction"
-            />
+            <img className={CareCSS.image} src={instruction.image} />
 
-            
             <span>{instruction.instruction}</span>
           </li>
         ))}
