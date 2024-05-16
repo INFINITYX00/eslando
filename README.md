@@ -12,6 +12,7 @@
 - [Installation](#installation)
 - [Usage](#usage)
 - [Features](#features)
+- [Development Journey](#Development Journey)
 - [Motivation](#motivation)
 - [Problem Solving](#problem-solving)
 - [Learning Experience](#learning-experience)
@@ -45,6 +46,12 @@ User-friendly Interface: The platform offers an intuitive interface for creating
 Comprehensive Information: Users can access detailed product information, including materials, care instructions, recycling options, and certifications, facilitating informed decisions and promoting sustainability.
 
 Integration with External Databases: The application integrates with external databases and APIs to provide up-to-date and comprehensive product information, enhancing the user experience and reliability of the platform.
+
+## Development Journey
+
+Take a look at our project's development journey to see how it has evolved over time. From initial concept to current implementation, explore the milestones and key achievements that have shaped the Digital Product Passport for Eslando.
+
+You can find our development journey [here](https://github.com/users/INFINITYX00/projects/15/views/4).
 
 ## Motivation
 
