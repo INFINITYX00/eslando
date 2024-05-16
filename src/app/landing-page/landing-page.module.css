@@ -72,7 +72,7 @@
 
 .arrow {
   align-self: flex-end;
-  animation: arrowBounce 2s infinite;
+  animation: arrowBounce 2.5s infinite;
   margin: 0 auto;
   transform-origin: bottom;
 }
