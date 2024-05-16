@@ -51,7 +51,7 @@ Integration with External Databases: The application integrates with external da
 
 Take a look at our project's development journey to see how it has evolved over time. From initial concept to current implementation, explore the milestones and key achievements that have shaped the Digital Product Passport for Eslando.
 
-You can find our development journey [here](https://github.com/users/INFINITYX00/projects/15/views/4).
+You can find our development journey on the roadmap [here](https://github.com/users/INFINITYX00/projects/15/views/4).
 
 ## Motivation
 
