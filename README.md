@@ -78,7 +78,7 @@ In the future, we plan to enhance the Digital Product Passport for Eslando by:
 
 ## Accessing the Deployed Application
 
-The Digital Product Passport for Eslando is deployed on Vercel, a cloud platform for deploying applications. You can access the deployed application [here](https://eslando.vercel.app/). Feel free to explore the application and provide any feedback or suggestions for improvement.
+The Digital Product Passport for Eslando is deployed on Vercel, a cloud platform for deploying applications. You can access the deployed application [here](https://eslando.vercel.app/?product=0). This product is an example if you were to scan a QR code. Feel free to explore the application and provide any feedback or suggestions for improvement.
 
 ## Community Engagement
 
