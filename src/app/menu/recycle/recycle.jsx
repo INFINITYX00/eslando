@@ -122,7 +122,7 @@ export default function Recycle({ recycle }) {
         <h3 className="recycleHeading">♻️ Find Your Local Recycling Shop</h3>
         <div className="inputField">
           <input
-            placeholder="Enter Postcode"
+            placeholder="Enter Location"
             id="form"
             onChange={(e) => setFormData(e.target.value)}
           />
