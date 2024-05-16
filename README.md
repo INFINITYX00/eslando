@@ -12,7 +12,7 @@
 - [Installation](#installation)
 - [Usage](#usage)
 - [Features](#features)
-- [Development Journey](#Development Journey)
+- [Development Journey](#development-journey)
 - [Motivation](#motivation)
 - [Problem Solving](#problem-solving)
 - [Learning Experience](#learning-experience)
