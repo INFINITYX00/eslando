@@ -17,6 +17,7 @@ export default function Materials({ materials }) {
             eventKey={material.name}
           >
             {Object.entries(material).map(([key, value]) => {
+              console.log("Hello");
               if (key == "name") {
                 return;
               } else {
