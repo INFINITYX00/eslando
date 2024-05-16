@@ -29,7 +29,7 @@
 
 .carouselItem {
   width: 100%;
-  height: 500px;
+  height: 275px;
   background-color: var(--mainBgColour);
   padding: 20px;
 }
@@ -104,7 +104,7 @@
   background-color: transparent;
 }
 
-.openingHours img {
+img {
   align-self: start;
 }
 

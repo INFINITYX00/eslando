@@ -7,7 +7,6 @@ export default function Recycle({ recycle }) {
   const [formData, setFormData] = useState("");
   const [shops, setShops] = useState([]);
 
-  // commit
 
   async function handleSumbit(e) {
     e.preventDefault();
@@ -47,7 +46,7 @@ export default function Recycle({ recycle }) {
                 latitude: lonLat.lat,
                 longitude: lonLat.lon,
               },
-              radius: "500.0",
+              radius: "10.0",
             },
           },
         }),
@@ -150,14 +149,14 @@ export default function Recycle({ recycle }) {
                     </p>
                   )}
 
-                  {shop.rating && (
+                  {/* {shop.rating && (
                     <p>
                       <img src="star.svg" alt="star icon" />
                       {shop.rating}
                     </p>
-                  )}
+                  )} */}
 
-                  {shop.hours && (
+                  {/* {shop.hours && (
                     <p className="openingHours">
                       <img src="hour.svg" alt="hour icon" />
                       <div className="hours">
@@ -168,7 +167,7 @@ export default function Recycle({ recycle }) {
                         ))}
                       </div>
                     </p>
-                  )}
+                  )} */}
                 </div>
               </div>
             </CarouselItem>
