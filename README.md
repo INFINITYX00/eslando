@@ -20,7 +20,7 @@
 - [Accessing the Deployed Application](#accessing-the-deployed-application)
 - [Community Engagement](#community-engagement)
 - [Support and Documentation](#support-and-documentation)
-- [FAQs and Press Release](#FAQs and Press Release)
+- [FAQs and Press Release](#FAQs-and-Press-Release)
 - [Credits](#credits)
 - [License](#license)
 
