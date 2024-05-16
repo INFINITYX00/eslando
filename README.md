@@ -86,6 +86,7 @@ We welcome contributions from the community to help improve the Digital Product 
 
 ## FAQs and Press Release
 
+### FAQs
 - [FAQs](FAQS.md) - Common questions about the Digital Product Passport for Eslando.
 
 ### Press Release
