@@ -67,13 +67,6 @@ const productData = [
             instruction: "Iron Medium (Max 150°C)",
           },
         ],
-        recycle: [
-          {
-            name: "Recycle Shop 1",
-            address: "123 Fake Street",
-            phone: "0756116675",
-          },
-        ],
         certifications: {
           BCI: false,
           BCorp: true,
@@ -128,13 +121,6 @@ const productData = [
           {
             image: "./tumble.svg",
             instruction: "Tumble Dry on Low Heat",
-          },
-        ],
-        recycle: [
-          {
-            name: "Recycle Shop 1",
-            address: "123 Fake Street",
-            phone: "0756116675",
           },
         ],
         certifications: {
@@ -200,13 +186,6 @@ const productData = [
             instruction: "Iron Cool (Max 110°C)",
           },
         ],
-        recycle: [
-          {
-            name: "Recycle Shop 1",
-            address: "123 Fake Street",
-            phone: "0756116675",
-          },
-        ],
         certifications: {
           BCI: false,
           BCorp: true,
@@ -270,13 +249,6 @@ const productData = [
             instruction: "Store in a Dry Place",
           },
         ],
-        recycle: [
-          {
-            name: "Recycle Shop 1",
-            address: "123 Fake Street",
-            phone: "0756116675",
-          },
-        ],
         certifications: {
           BCI: false,
           BCorp: true,
@@ -294,7 +266,7 @@ const productData = [
   {
     product: {
       id: 5,
-      imageUrl: "./",
+      imageUrl: "./sneakers.jpg",
       name: "Sustainable Sneakers",
       brand: "EcoFootwear Co.",
       season: "FW24",
@@ -336,13 +308,6 @@ const productData = [
             instruction: "Dry Flat",
           },
         ],
-        recycle: [
-          {
-            name: "Recycle Shop 2",
-            address: "456 Recycle Road",
-            phone: "0857243312",
-          },
-        ],
         certifications: {
           BCI: false,
           BCorp: true,
@@ -360,12 +325,12 @@ const productData = [
   {
     product: {
       id: 6,
-      imageUrl: "./",
+      imageUrl: "./overalls.jpg",
       name: "Organic Denim Overalls",
       brand: "Sustainable Style Co.",
       season: "Spring/Summer 2024",
       highlights: [
-        { svg: "./organic.svg", title: "Organic Denim" },
+        { svg: "./cotton.svg", title: "Organic Denim" },
         { svg: "./recyclable.svg", title: "Recycled Metal Hardware" },
       ],
       countryOfOrigin: "United States",
@@ -392,23 +357,16 @@ const productData = [
         ],
         careInstructions: [
           {
-            image: "./machine-wash.svg",
+            image: "./30wash.svg",
             instruction: "Machine Wash Cold",
           },
           {
             image: "./air-dry.svg",
-            instruction: "Air Dry",
+            instruction: "Line Dry",
           },
           {
             image: "./iron.svg",
             instruction: "Iron Medium (Max 150°C)",
-          },
-        ],
-        recycle: [
-          {
-            name: "Recycle Shop 3",
-            address: "789 Sustainability Street",
-            phone: "0908387991",
           },
         ],
         certifications: {
