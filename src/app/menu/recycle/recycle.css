@@ -7,7 +7,6 @@
 .inputField {
   display: flex;
   gap: 5px;
-  padding: 0 10px 0px 10px;
   background-color: var(--mainBgColour);
 }
 
@@ -115,4 +114,14 @@ img {
 /* Also hides arrows in materials */
 .carousel-control-next-icon, .carousel-control-prev-icon  {
   display: none;
+}
+
+.recycleDiv {
+  display: flex;
+  gap: 5px;
+  padding-bottom: 15px;
+}
+
+.recycleDiv h3, .recycleDiv img {
+  margin: auto 0;
 }
