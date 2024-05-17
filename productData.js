@@ -154,23 +154,23 @@ const productData = [
   {
     product: {
       id: 3,
-      imageUrl: "./fleece-lined-jacket.jpg",
-      name: "Fleece Denim Jacket",
-      brand: "Denimology",
+      imageUrl: "",
+      name: "Insultated Winter Coat",
+      brand: "FrostWear",
       season: "FW24",
       highlights: [
         { svg: "./cotton.svg", title: "Organic Cotton" },
-        { svg: "./recyclable.svg", title: "Recycled Fleece" },
+        { svg: "./recyclable.svg", title: "Recycled Insulation" },
       ],
       countryOfOrigin: "Vietnam",
       menu: {
         materials: [
           {
-            name: "Outer Fabric",
-            material: "100% Organic Cotton Denim",
-            weight: "Midweight",
-            weave: "Twill Weave",
-            waterResistance: "Not Water Resistant",
+            name: "Outer fabric",
+            material: "100% Organic Cotton Canvas",
+            weight: "Heavyweight",
+            weave: "Plain Weave",
+            waterResistance: "Water Resistant",
           },
           {
             name: "Lining Fabric",
