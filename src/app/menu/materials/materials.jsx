@@ -25,6 +25,7 @@ export default function Materials({ materials }) {
             key={material.name}
             title={material.name}
             eventKey={material.name}
+            fill
           >
             <div className="tab">
               {Object.entries(material).map(([key, value]) => {
