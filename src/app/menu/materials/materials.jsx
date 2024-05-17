@@ -19,7 +19,6 @@ export default function Materials({ materials }) {
         className="mb-0"
         activeKey={key}
         onSelect={(k) => handleSelect(k)}
-        fill
       >
         {materials.map((material) => (
           <Tab
