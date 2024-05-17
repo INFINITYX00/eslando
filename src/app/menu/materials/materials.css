@@ -3,10 +3,11 @@
     transition: .5s ease-in-out,background-color .5s ease-in-out,border-color .5s ease-in-out
 }
 
-.nav-tabs{
+.nav-tabs .nav-link{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  border: none
 }
 
 .nav-item{
@@ -20,6 +21,8 @@
 .tab{
   background-color: white;
   padding: 20px;
+  margin-left: calc(-1 * var(--bs-nav-tabs-border-width));
+
 }
 
 .tabText{
@@ -28,4 +31,18 @@
 
 .fade{
   transition: opacity .5s linear;
+}
+
+#Outer{
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+#Lining{
+  border-radius: 5px;
+}
+
+#Hardware{
+  border-radius: 5px;
 }
