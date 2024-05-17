@@ -6,6 +6,11 @@
   width: 90%;
 }
 
+/* Remove padding from collapsed buttons */
+.accordion-button.collapsed {
+  padding: 16px 0;
+}
+
 .accordion-button:not(.collapsed) {
   background-color: none;
   box-shadow: none;
