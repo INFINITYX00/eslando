@@ -262,7 +262,7 @@ const productData = [
             instruction: "Wipe Clean with Damp Cloth",
           },
           {
-            image: "./leather-conditioner.svg",
+            image: "./shampoo.svg",
             instruction: "Use Leather Conditioner",
           },
           {
@@ -281,11 +281,11 @@ const productData = [
           BCI: false,
           BCorp: true,
           BLUESIGN: false,
-          Fairtrade: true,
-          FSC: true,
+          Fairtrade: false,
+          FSC: false,
           GOTS: false,
           OEKOTEX: true,
-          WRAP: true,
+          WRAP: false,
         },
       },
     },
@@ -300,7 +300,7 @@ const productData = [
       season: "FW24",
       highlights: [
         { svg: "./recyclable.svg", title: "Recycled Materials" },
-        { svg: "./organic.svg", title: "Organic Cotton Lining" },
+        { svg: "./cotton.svg", title: "Organic Cotton Lining" },
       ],
       countryOfOrigin: "Vietnam",
       menu: {
@@ -332,7 +332,7 @@ const productData = [
             instruction: "Hand Wash",
           },
           {
-            image: "./air-flat.svg",
+            image: "./dry-flat.svg",
             instruction: "Dry Flat",
           },
         ],
