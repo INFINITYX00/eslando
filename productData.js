@@ -154,7 +154,7 @@ const productData = [
   {
     product: {
       id: 3,
-      imageUrl: "",
+      imageUrl: "./winter-coat.jpg",
       name: "Insultated Winter Coat",
       brand: "FrostWear",
       season: "FW24",
@@ -174,8 +174,8 @@ const productData = [
           },
           {
             name: "Lining Fabric",
-            material: "Recycled Fleece",
-            weight: "Lightweight",
+            material: "Recycled Polyester",
+            weight: "Heavyweight",
             breathability: "Moderately Breathable",
           },
           {
@@ -195,7 +195,7 @@ const productData = [
           },
           {
             image: "./iron.svg",
-            instruction: "Iron Medium (Max 150°C)",
+            instruction: "Iron Cool (Max 110°C)",
           },
         ],
         recycle: [
@@ -222,48 +222,48 @@ const productData = [
   {
     product: {
       id: 4,
-      imageUrl: "./fleece-lined-jacket.jpg",
-      name: "Fleece Denim Jacket",
-      brand: "Denimology",
+      imageUrl: "./handbag.jpg",
+      name: "Luxury Leather Handbag",
+      brand: "Elangance Couture",
       season: "FW24",
       highlights: [
-        { svg: "./cotton.svg", title: "Organic Cotton" },
-        { svg: "./recyclable.svg", title: "Recycled Fleece" },
+        { svg: "./leather.svg", title: "Genuine Leather" },
+        { svg: "./handmade.svg", title: "Handmade Craftsmanship" },
       ],
-      countryOfOrigin: "Vietnam",
+      countryOfOrigin: "Italy",
       menu: {
         materials: [
           {
-            name: "Outer Fabric",
-            material: "100% Organic Cotton Denim",
-            weight: "Midweight",
-            weave: "Twill Weave",
-            waterResistance: "Not Water Resistant",
+            name: "Outer Material",
+            material: "100% Genuine Leather",
+            weight: "Heavyweight",
+            weave: "Smooth Finish",
+            waterResistance: "Water Resistant",
           },
           {
-            name: "Lining Fabric",
-            material: "Recycled Fleece",
+            name: "Lining Material",
+            material: "Recycled Polyester",
             weight: "Lightweight",
-            breathability: "Moderately Breathable",
+            breathability: "Highly Breathable",
           },
           {
             name: "Hardware",
-            material1: "Buttons: Metal",
-            material2: "Zips: Metal",
+            material1: "Buckles: Brass",
+            material2: "Zips: Brass",
           },
         ],
         careInstructions: [
           {
-            image: "./hand-wash.svg",
-            instruction: "Hand Wash",
+            image: "./wipe-clean.svg",
+            instruction: "Wipe Clean with Damp Cloth",
           },
           {
-            image: "./dry-flat.svg",
-            instruction: "Dry Flat",
+            image: "./leather-conditioner.svg",
+            instruction: "Use Leather Conditioner",
           },
           {
-            image: "./iron.svg",
-            instruction: "Iron Medium (Max 150°C)",
+            image: "./store-dry.svg",
+            instruction: "Store in a Dry Place",
           },
         ],
         recycle: [
@@ -278,10 +278,10 @@ const productData = [
           BCorp: true,
           BLUESIGN: false,
           Fairtrade: true,
-          FSC: false,
-          GOTS: true,
-          OEKOTEX: false,
-          WRAP: false,
+          FSC: true,
+          GOTS: false,
+          OEKOTEX: true,
+          WRAP: true,
         },
       },
     },
