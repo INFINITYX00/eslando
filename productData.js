@@ -258,7 +258,7 @@ const productData = [
         ],
         careInstructions: [
           {
-            image: "./wipe-clean.svg",
+            image: "./hand-wash.svg",
             instruction: "Wipe Clean with Damp Cloth",
           },
           {
