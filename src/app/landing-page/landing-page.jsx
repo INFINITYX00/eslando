@@ -1,7 +1,6 @@
 "use client";
 import { useState, useEffect } from "react";
 import LandingCSS from "./landing-page.module.css";
-import 'animate.css';
 
 // Landing page component
 // This component will be displayed when the user first visits the website
