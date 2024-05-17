@@ -1,7 +1,6 @@
 "use client";
 import { useState, useEffect } from "react";
 import LandingCSS from "./landing-page.module.css";
-import 'animate.css';
 
 // Landing page component
 // This component will be displayed when the user first visits the website
@@ -30,7 +29,9 @@ export default function LandingPage({ productName, brand }) {
         <div className={`${LandingCSS.header} ${LandingCSS.fadeInUpAnimation}`}>
           <h1>RELABEL</h1>
         </div>
-        <div className={`${LandingCSS.landingText} ${LandingCSS.fadeInUpAnimation}`}>
+        <div
+          className={`${LandingCSS.landingText} ${LandingCSS.fadeInUpAnimation}`}
+        >
           <p>
             LET&apos;S FIND OUT MORE ABOUT YOUR
             <br />
@@ -40,7 +41,9 @@ export default function LandingPage({ productName, brand }) {
             <b>{brand.toUpperCase()}</b>
           </p>
         </div>
-        <div className={`${LandingCSS.landingScroll} ${LandingCSS.fadeInUpAnimation}`}>
+        <div
+          className={`${LandingCSS.landingScroll} ${LandingCSS.fadeInUpAnimation}`}
+        >
           <p>SWIPE UP</p>
           <img className={LandingCSS.arrow} src="arrow-down-svgrepo-com.svg" />
         </div>
