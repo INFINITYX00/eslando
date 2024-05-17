@@ -16,7 +16,7 @@ export default function Materials({ materials }) {
     <div className="materials">
       <Tabs
         id="uncontrolled-tab-example"
-        className="mb-3"
+        className="mb-0"
         activeKey={key}
         onSelect={(k) => handleSelect(k)}
         fill
@@ -27,13 +27,19 @@ export default function Materials({ materials }) {
             title={material.name}
             eventKey={material.name}
           >
-            {Object.entries(material).map(([key, value]) => {
-              if (key == "name") {
-                return;
-              } else {
-                return <p key={value}>{value}</p>;
-              }
-            })}
+            <div className="tab">
+              {Object.entries(material).map(([key, value]) => {
+                if (key == "name") {
+                  return;
+                } else {
+                  return (
+                    <p key={value} className="tabText">
+                      {value}
+                    </p>
+                  );
+                }
+              })}
+            </div>
           </Tab>
         ))}
       </Tabs>
