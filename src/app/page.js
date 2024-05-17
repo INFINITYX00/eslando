@@ -14,6 +14,7 @@ export default function Home() {
   let data = productData[searchParams[1]].product;
 
   return (
+    
     <main className={styles.main}>
       <div className={styles.description}>
         <div className={styles.landing}>

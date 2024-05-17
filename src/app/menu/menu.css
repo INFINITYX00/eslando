@@ -1,8 +1,9 @@
 .accordion {
   --bs-accordion-btn-bg: var(--mainBgColour);
-  margin: 0 0 5px 0;
+  margin: 0 auto;
   background-color: var(--mainBgColour);
   --bs-accordion-border-radius: 0;
+  width: 90%;
 }
 
 .accordion-button:not(.collapsed) {
@@ -27,7 +28,7 @@
 .accordion-item {
   border-left: none;
   border-right: none;
-  border-top: 2px solid #dee2e6;
-  border-bottom: 2px solid #dee2e6;
+  border-top: 2px solid #d0d3d5;
+  border-bottom: 2px solid #d0d3d5;
   background-color: var(--mainBgColour);
 }
