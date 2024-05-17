@@ -230,7 +230,7 @@ const productData = [
       season: "FW24",
       highlights: [
         { svg: "./leather.svg", title: "Genuine Leather" },
-        { svg: "./handmade.svg", title: "Handmade Craftsmanship" },
+        { svg: "./hand-made.svg", title: "Handmade Craftsmanship" },
       ],
       countryOfOrigin: "Italy",
       menu: {
@@ -258,7 +258,7 @@ const productData = [
         ],
         careInstructions: [
           {
-            image: "./hand-wash.svg",
+            image: "./wash-hand.svg",
             instruction: "Wipe Clean with Damp Cloth",
           },
           {
