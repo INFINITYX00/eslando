@@ -6,8 +6,8 @@
   width: 90%;
 }
 
-/* Remove padding from collapsed buttons */
-.accordion-button.collapsed {
+/* Remove padding from collapsed and expanded buttons */
+.accordion-button {
   padding: 16px 0;
 }
 
