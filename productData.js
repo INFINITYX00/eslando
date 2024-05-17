@@ -165,24 +165,26 @@ const productData = [
       countryOfOrigin: "Vietnam",
       menu: {
         materials: [
-          {
-            name: "Outer fabric",
-            material: "100% Organic Cotton Canvas",
-            weight: "Heavyweight",
-            weave: "Plain Weave",
-            waterResistance: "Water Resistant",
-          },
-          {
-            name: "Lining Fabric",
-            material: "Recycled Polyester",
-            weight: "Heavyweight",
-            breathability: "Moderately Breathable",
-          },
-          {
-            name: "Hardware",
-            material1: "Buttons: Metal",
-            material2: "Zips: Metal",
-          },
+          [
+            {
+              name: "Outer fabric",
+              material: "100% Organic Cotton Canvas",
+              weight: "Heavyweight",
+              weave: "Plain Weave",
+              waterResistance: "Water Resistant",
+            },
+            {
+              name: "Lining Fabric",
+              material: "Recycled Polyester",
+              weight: "Heavyweight",
+              breathability: "Moderately Breathable",
+            },
+            {
+              name: "Hardware",
+              material1: "Buttons: Metal",
+              material2: "Zips: Metal",
+            },
+          ],
         ],
         careInstructions: [
           {
@@ -233,24 +235,26 @@ const productData = [
       countryOfOrigin: "Italy",
       menu: {
         materials: [
-          {
-            name: "Outer Material",
-            material: "100% Genuine Leather",
-            weight: "Heavyweight",
-            weave: "Smooth Finish",
-            waterResistance: "Water Resistant",
-          },
-          {
-            name: "Lining Material",
-            material: "Recycled Polyester",
-            weight: "Lightweight",
-            breathability: "Highly Breathable",
-          },
-          {
-            name: "Hardware",
-            material1: "Buckles: Brass",
-            material2: "Zips: Brass",
-          },
+          [
+            {
+              name: "Outer Material",
+              material: "100% Genuine Leather",
+              weight: "Heavyweight",
+              weave: "Smooth Finish",
+              waterResistance: "Water Resistant",
+            },
+            {
+              name: "Lining Material",
+              material: "Recycled Polyester",
+              weight: "Lightweight",
+              breathability: "Highly Breathable",
+            },
+            {
+              name: "Hardware",
+              material1: "Buckles: Brass",
+              material2: "Zips: Brass",
+            },
+          ],
         ],
         careInstructions: [
           {
@@ -301,24 +305,26 @@ const productData = [
       countryOfOrigin: "Vietnam",
       menu: {
         materials: [
-          {
-            name: "Upper",
-            material: "Recycled Pet",
-            weight: "Lightweight",
-            weave: "Knit",
-            waterResistance: "Not Water Resistant",
-          },
-          {
-            name: "Lining",
-            material: "Organic Cotton",
-            weight: "Medium",
-            breathability: "High",
-          },
-          {
-            name: "Outsole",
-            material1: "Natural Rubber",
-            material2: "Recycled EVA Foam",
-          },
+          [
+            {
+              name: "Upper",
+              material: "Recycled Pet",
+              weight: "Lightweight",
+              weave: "Knit",
+              waterResistance: "Not Water Resistant",
+            },
+            {
+              name: "Lining",
+              material: "Organic Cotton",
+              weight: "Medium",
+              breathability: "High",
+            },
+            {
+              name: "Outsole",
+              material1: "Natural Rubber",
+              material2: "Recycled EVA Foam",
+            },
+          ],
         ],
         careInstructions: [
           {
@@ -365,22 +371,24 @@ const productData = [
       countryOfOrigin: "United States",
       menu: {
         materials: [
-          {
-            name: "Main Fabric",
-            material: "Organic Cotton Denim",
-            weight: "Medium",
-            weave: "Denim",
-            waterResistance: "Not Water Resistant",
-          },
-          {
-            name: "Hardware",
-            material: "Recycled Metal",
-          },
-          {
-            name: "Straps",
-            material: "Organic Cotton",
-            weight: "Lightweight",
-          },
+          [
+            {
+              name: "Main Fabric",
+              material: "Organic Cotton Denim",
+              weight: "Medium",
+              weave: "Denim",
+              waterResistance: "Not Water Resistant",
+            },
+            {
+              name: "Hardware",
+              material: "Recycled Metal",
+            },
+            {
+              name: "Straps",
+              material: "Organic Cotton",
+              weight: "Lightweight",
+            },
+          ],
         ],
         careInstructions: [
           {
