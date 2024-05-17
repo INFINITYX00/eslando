@@ -186,8 +186,8 @@ const productData = [
         ],
         careInstructions: [
           {
-            image: "./hand-wash.svg",
-            instruction: "Hand Wash",
+            image: "./wash.svg",
+            instruction: "Machine Wash",
           },
           {
             image: "./dry-flat.svg",
