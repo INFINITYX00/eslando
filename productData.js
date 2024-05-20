@@ -100,7 +100,7 @@ const productData = [
           },
         ],
         certifications: {
-          BCI: true,
+          BCI: false,
           BCorp: false,
           BLUESIGN: false,
           Fairtrade: true,
