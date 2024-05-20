@@ -7,20 +7,28 @@ import ProductCard from "./productCard/productCard";
 import Menu from "./menu/menu";
 import productData from "../../productData";
 import { useSearchParams } from "next/navigation";
-
+import { motion } from "framer-motion";
 
 export default function Home() {
   const [searchParams] = useSearchParams();
   let data = productData[searchParams[1]].product;
 
   return (
-    
     <main className={styles.main}>
       <div className={styles.description}>
         <div className={styles.landing}>
           <LandingPage productName={data.name} brand={data.brand} />
         </div>
-        <div className={styles.content}>
+        <motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{
+            ease: "linear",
+            duration: 2,
+          }}
+          viewport={{ amount: 0.5 }}
+          className={styles.content}
+        >
           <Header />
           <ProductCard
             productImage={data.imageUrl}
@@ -31,7 +39,7 @@ export default function Home() {
             highlights={data.highlights}
           />
           <Menu data={data.menu} />
-        </div>
+        </motion.div>
       </div>
     </main>
   );
