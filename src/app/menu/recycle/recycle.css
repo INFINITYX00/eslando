@@ -11,6 +11,7 @@
   border-radius: 5px;
   height: 40px;
 }
+
 .inputField i {
   font-size: 22px;
   float: right;
@@ -43,7 +44,7 @@
 
 .shopCard {
   /* background: linear-gradient(to bottom right, rgb(244, 244, 244), rgb(222, 221, 221)); */
-  margin: 0px 10px 10px 0px;
+  margin: 10px 10px 10px 0px;
   padding: 20px;
   border-style: initial;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
@@ -131,4 +132,18 @@ img {
 
 .recycleDiv h3, .recycleDiv img {
   margin: auto 0;
+}
+
+.carousel-indicators [data-bs-target] {
+  background-color: black;
+}
+
+.carousel-indicators {
+  background-color: transparent;
+}
+
+.recycleNowLink {
+  margin-top: 10px;
+  text-align: center;
+  margin-bottom: -5px;
 }

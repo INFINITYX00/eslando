@@ -128,7 +128,7 @@ export default function Recycle({ recycle }) {
             id="form"
             onChange={(e) => setFormData(e.target.value)}
           />
-          <button type="submit"><i class="fa fa-search"></i></button>
+          <button type="submit"><i className="fa fa-search"></i></button>
         </div>
       </form>
       {displayShops && (
@@ -176,6 +176,7 @@ export default function Recycle({ recycle }) {
           ))}
         </Carousel>
       )}
+      <p className="recycleNowLink">Find out more about recycling your clothing and textiles <a href="https://www.recyclenow.com/recycle-an-item/clothing-textiles" target="_blank">here</a>.</p>
     </>
   );
 }

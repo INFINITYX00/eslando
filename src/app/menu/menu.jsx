@@ -26,7 +26,7 @@ export default function Menu({ data }) {
           </Accordion.Body>
         </Accordion.Item>
         <Accordion.Item eventKey="2">
-          <Accordion.Header>Recycle and Repurpose</Accordion.Header>
+          <Accordion.Header>Recycling Points</Accordion.Header>
           <Accordion.Body>
             <Recycle recycle={data.recycle} />
           </Accordion.Body>
