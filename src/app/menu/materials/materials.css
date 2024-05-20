@@ -33,16 +33,12 @@
   transition: opacity .5s linear;
 }
 
-#Outer{
+#first-tab{
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
   border-bottom-left-radius: 5px;
 }
 
-#Lining{
-  border-radius: 5px;
-}
-
-#Hardware{
+#nth-tab{
   border-radius: 5px;
 }
