@@ -66,7 +66,7 @@ export default function Certifications({ certifications }) {
           <div>
             <img
               className={CertCSS.WRAPImage}
-              src="https://wrapcompliance.org/wp-content/uploads/2022/11/Main-logo.svg"
+              src="./WRAP.png"
               alt="WRAP image"
             />
           </div>

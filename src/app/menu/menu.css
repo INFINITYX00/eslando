@@ -38,3 +38,15 @@
   border-bottom: 2px solid #d0d3d5;
   background-color: var(--mainBgColour);
 }
+
+@media (min-width: 580px) {
+  .accordion {
+    width: 70%;
+    margin: auto;
+  }
+
+  .image {
+    height: 40vh;
+    width: auto;
+  }
+}

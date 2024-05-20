@@ -10,7 +10,9 @@ export default function ProductCard({
 }) {
   return (
     <>
+        <div className={ProductCSS.container}>
       <img className={ProductCSS.image} src={productImage} />
+      <div className={ProductCSS.textWrapper}>
       <h1 className={ProductCSS.productName}>{productName}</h1>
       <h2 className={ProductCSS.productBrand}>
         {brand}, {season}
@@ -24,6 +26,8 @@ export default function ProductCard({
             <p className={ProductCSS.pHighlightCard}>{highlight.title}</p>
           </div>
         ))}
+      </div>
+      </div>
       </div>
     </>
   );
