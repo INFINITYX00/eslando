@@ -155,3 +155,20 @@
 .landingScroll.fadeInUpAnimation {
   animation: 2.5s fadeInUp3 ease-in-out;
 }
+
+@media (min-width: 580px)  { 
+  .landingBackground {
+    max-height: 80%;
+    margin: auto;
+  }
+
+  .bgImage {
+    max-height: 80vh;
+    width: 100%;
+    margin: auto;
+  }
+
+  .landingScroll img {
+    width: 70px;
+  }
+ }

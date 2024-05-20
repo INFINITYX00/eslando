@@ -21,3 +21,10 @@
 .instructionItem span {
   background-color: var(--mainBgColour);
 }
+
+@media (min-width: 580px) {
+  .careInstructions {
+    display: flex;
+    gap: 40px;
+  }
+}
