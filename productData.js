@@ -127,7 +127,6 @@ const productData = [
       countryOfOrigin: "Vietnam",
       menu: {
         materials: [
-          [
             {
               name: "Outer fabric",
               material: "100% Organic Cotton Canvas",
@@ -146,7 +145,6 @@ const productData = [
               material1: "Buttons: Metal",
               material2: "Zips: Metal",
             },
-          ],
         ],
         careInstructions: [
           {
@@ -190,7 +188,6 @@ const productData = [
       countryOfOrigin: "Italy",
       menu: {
         materials: [
-          [
             {
               name: "Outer Material",
               material: "100% Genuine Leather",
@@ -209,7 +206,6 @@ const productData = [
               material1: "Buckles: Brass",
               material2: "Zips: Brass",
             },
-          ],
         ],
         careInstructions: [
           {
@@ -253,7 +249,6 @@ const productData = [
       countryOfOrigin: "Vietnam",
       menu: {
         materials: [
-          [
             {
               name: "Upper",
               material: "Recycled Pet",
@@ -272,7 +267,6 @@ const productData = [
               material1: "Natural Rubber",
               material2: "Recycled EVA Foam",
             },
-          ],
         ],
         careInstructions: [
           {
@@ -312,7 +306,6 @@ const productData = [
       countryOfOrigin: "United States",
       menu: {
         materials: [
-          [
             {
               name: "Main Fabric",
               material: "Organic Cotton Denim",
@@ -329,7 +322,6 @@ const productData = [
               material: "Organic Cotton",
               weight: "Lightweight",
             },
-          ],
         ],
         careInstructions: [
           {
