@@ -10,7 +10,6 @@
   border: 1px solid black;
   border-radius: 5px;
   height: 40px;
-  width:
 }
 .inputField i {
   font-size: 22px;
@@ -31,7 +30,8 @@
   justify-self: flex-end;
   background-color: transparent;
   color: black;
-  border: none
+  border: none;
+  width: 10%
 }
 
 .carouselItem {
@@ -83,7 +83,7 @@
 }
 .inputField input {
   background-color: transparent;
-  width: 80%;
+  width: 90%;
   padding: 5px;
   border: none
 }
