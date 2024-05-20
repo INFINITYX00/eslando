@@ -1,24 +1,56 @@
+.imgContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  background-color: var(--mainBgColour);
+  flex-wrap: wrap;
+}
+
 .bcorpImage {
   height: 120px;
   width: auto;
   background-color: var(--mainBgColour);
 }
-
 .gotsImage {
   height: 99px;
   width: auto;
   background-color: var(--mainBgColour);
 }
 
-.imgContainer {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
-  background-color: var(--mainBgColour);
-}
-
 .FairtradeImage {
   width: auto;
   max-height: 99px;
+  background-color: var(--mainBgColour);
+}
+
+.WRAPImage {
+  width: auto;
+  max-height: 99px;
+  background-color: var(--mainBgColour);
+}
+
+.BCIImage {
+  width: auto;
+  max-height: 99px;
+  background-color: var(--mainBgColour);
+}
+
+.BLUESIGNImage {
+  width: auto;
+  max-height: 99px;
+  background-color: var(--mainBgColour);
+}
+
+.FSCImage {
+  width: auto;
+  max-height: 99px;
+  background-color: var(--mainBgColour);
+}
+
+.OKEOTEXImage {
+  width: auto;
+  max-height: 99px;
+  background-color: var(--mainBgColour);
 }
