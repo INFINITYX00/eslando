@@ -6,24 +6,32 @@
 
 .inputField {
   display: flex;
-  gap: 5px;
   background-color: var(--mainBgColour);
+  border: 1px solid black;
+  border-radius: 5px;
+  height: 40px;
+  width:
+}
+.inputField i {
+  font-size: 22px;
+  float: right;
+  background-color: black;
+  color: white;
+  padding: 8px
 }
 
 .recycleHeading {
   font-size: 16px;
-  padding: 10px 0;
+  padding: 5px 0;
   background-color: var(--mainBgColour);
 }
 
 .inputField button {
   display: block;
-  background-color: var(--mainBgColour);
-  border: 1px solid black;
+  justify-self: flex-end;
+  background-color: transparent;
   color: black;
-  width: 20%;
-  border-radius: 5px;
-  padding: 5px;
+  border: none
 }
 
 .carouselItem {
@@ -74,11 +82,10 @@
   background-color: var(--mainBgColour);
 }
 .inputField input {
-  background-color: var(--mainBgColour);
+  background-color: transparent;
   width: 80%;
   padding: 5px;
-  border-radius: 5px;
-  border: solid 1px;
+  border: none
 }
 
 .hours {

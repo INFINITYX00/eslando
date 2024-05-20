@@ -9,6 +9,7 @@
 /* Remove padding from collapsed and expanded buttons */
 .accordion-button {
   padding: 16px 0;
+  
 }
 
 .accordion-button:not(.collapsed) {
@@ -26,7 +27,7 @@
 }
 
 .accordion-body {
-  padding-top: 0;
+  padding: 0 0 20px 0;
   background-color: var(--mainBgColour);
 }
 

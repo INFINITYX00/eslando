@@ -119,7 +119,7 @@ export default function Recycle({ recycle }) {
     <>
       <form className="form" onSubmit={handleSumbit}>
         <div className="recycleDiv">
-          <img src="./recyclable.svg" width="25" />
+          {/* <img src="./recyclable.svg" width="25" /> */}
           <h3 className="recycleHeading">Find Your Local Recycling Shop</h3>
         </div>
         <div className="inputField">
@@ -128,7 +128,7 @@ export default function Recycle({ recycle }) {
             id="form"
             onChange={(e) => setFormData(e.target.value)}
           />
-          <button type="submit">Search</button>
+          <button type="submit"><i class="fa fa-search"></i></button>
         </div>
       </form>
       {displayShops && (
