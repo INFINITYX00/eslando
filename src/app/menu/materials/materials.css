@@ -7,7 +7,8 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  border: none
+  border: 0.5px solid rgb(90, 90, 90);
+
 }
 
 .nav-item{
@@ -16,6 +17,7 @@
 
 .nav-tabs .nav-link.active {
   background-color: white;
+  border: 0.5px solid rgb(90, 90, 90);
 }
 
 .tab{
@@ -37,8 +39,10 @@
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
   border-bottom-left-radius: 5px;
+  border: 0.5px solid rgb(90, 90, 90);
 }
 
 #nth-tab{
   border-radius: 5px;
+  border: 0.5px solid rgb(90, 90, 90);
 }
