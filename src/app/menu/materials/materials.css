@@ -1,6 +1,6 @@
 .nav-link{
     color: black;
-    transition: .5s ease-in-out,background-color .5s ease-in-out,border-color .5s ease-in-out
+    /* transition: .5s ease-in-out,background-color .5s ease-in-out,border-color .5s ease-in-out */
 }
 
 .nav-tabs .nav-link{
@@ -8,8 +8,10 @@
   flex-direction: row;
   justify-content: space-between;
   border: 0.5px solid rgb(90, 90, 90);
+  border-bottom: 0;
 
 }
+
 
 .nav-item{
   background-color: #ebebea;
@@ -18,6 +20,7 @@
 .nav-tabs .nav-link.active {
   background-color: white;
   border: 0.5px solid rgb(90, 90, 90);
+  border-bottom: 0;
 }
 
 .tab{
@@ -32,7 +35,7 @@
 }
 
 .fade{
-  transition: opacity .5s linear;
+  /* transition: opacity .5s linear; */
 }
 
 #first-tab{
@@ -43,6 +46,8 @@
 }
 
 #nth-tab{
-  border-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
   border: 0.5px solid rgb(90, 90, 90);
 }
