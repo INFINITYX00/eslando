@@ -15,27 +15,41 @@ Eslando's Digital Product Passports are QR code-based identifiers that enable se
 tracking of clothing throughout its lifecycle, from production to recycling. These
 passports contain crucial data provided by brands and are used by collectors to match
 garments with the most suitable recyclers.
-What information does a Digital Product Passport contain?
+
+## What information does a Digital Product Passport contain?
 A Digital Product Passport may include:
+<br>
 ● A unique product identifier (UID)
+<br>
 ● A global trade identification number as provided for in standard ISO/IEC or
 equivalent of products or their parts
+<br>
 ● A TARIC code and other relevant commodity codes
+<br>
 ● Compliance documentation, including declaration of conformity, technical
 documentation, and conformity certificates
+<br>
 ● Requirements related to substances of concern
+<br>
 ● User manuals, instructions, warnings, or safety information
+<br>
 ● Relevant information related to the manufacturer, operators and importer
+<br>
 ● Relevant information related to unique facility identifiers
+<br>
 ● Relevant information for consumers and end-users on how to install, use,
 maintain, and repair the product to minimise negative impact and ensure
 long-term durability.
+<br>
 ● Relevant information for consumers and end-users on how to return or
-dispose of the product at end-of-life
+dispose of the product at end-of-life.
+<br>
 ● Relevant information for treatment facilities on disassembly, recycling, or
 disposal at end-of-life
+<br>
 ● Other relevant information that may influence the way the product is handled
 by parties other than the manufacturer
+<br>
 
 ## Are Digital Product Passports a legal requirement on garments?
 
