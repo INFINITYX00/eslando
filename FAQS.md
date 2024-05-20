@@ -17,6 +17,7 @@ passports contain crucial data provided by brands and are used by collectors to 
 garments with the most suitable recyclers.
 What information does a Digital Product Passport contain?
 A Digital Product Passport may include:
+<br>
 ● A unique product identifier (UID)
 ● A global trade identification number as provided for in standard ISO/IEC or
 equivalent of products or their parts
