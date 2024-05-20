@@ -7,7 +7,6 @@ export default function Recycle({ recycle }) {
   const [formData, setFormData] = useState("");
   const [shops, setShops] = useState([]);
 
-
   async function handleSumbit(e) {
     e.preventDefault();
     const lonLat = await getLonLat(formData);
@@ -119,14 +118,17 @@ export default function Recycle({ recycle }) {
   return (
     <>
       <form className="form" onSubmit={handleSumbit}>
-        <h3 className="recycleHeading">♻️ Find Your Local Recycling Shop</h3>
+        <div className="recycleDiv">
+          {/* <img src="./recyclable.svg" width="25" /> */}
+          <h3 className="recycleHeading">Find Your Local Recycling Shop</h3>
+        </div>
         <div className="inputField">
           <input
             placeholder="Enter Location"
             id="form"
             onChange={(e) => setFormData(e.target.value)}
           />
-          <button type="submit">Search</button>
+          <button type="submit"><i class="fa fa-search"></i></button>
         </div>
       </form>
       {displayShops && (

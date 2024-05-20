@@ -6,25 +6,32 @@
 
 .inputField {
   display: flex;
-  gap: 5px;
-  padding: 0 10px 0px 10px;
   background-color: var(--mainBgColour);
+  border: 1px solid black;
+  border-radius: 5px;
+  height: 40px;
+}
+.inputField i {
+  font-size: 22px;
+  float: right;
+  background-color: black;
+  color: white;
+  padding: 8px
 }
 
 .recycleHeading {
   font-size: 16px;
-  padding: 10px 0;
+  padding: 5px 0;
   background-color: var(--mainBgColour);
 }
 
 .inputField button {
   display: block;
-  background-color: var(--mainBgColour);
-  border: 1px solid black;
+  justify-self: flex-end;
+  background-color: transparent;
   color: black;
-  width: 20%;
-  border-radius: 5px;
-  padding: 5px;
+  border: none;
+  width: 10%
 }
 
 .carouselItem {
@@ -75,11 +82,10 @@
   background-color: var(--mainBgColour);
 }
 .inputField input {
-  background-color: var(--mainBgColour);
-  width: 80%;
+  background-color: transparent;
+  width: 90%;
   padding: 5px;
-  border-radius: 5px;
-  border: solid 1px;
+  border: none
 }
 
 .hours {
@@ -115,4 +121,14 @@ img {
 /* Also hides arrows in materials */
 .carousel-control-next-icon, .carousel-control-prev-icon  {
   display: none;
+}
+
+.recycleDiv {
+  display: flex;
+  gap: 5px;
+  padding-bottom: 15px;
+}
+
+.recycleDiv h3, .recycleDiv img {
+  margin: auto 0;
 }
