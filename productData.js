@@ -80,20 +80,17 @@ const productData = [
       countryOfOrigin: "China",
       menu: {
         materials: [
-          [
-            {
-              name: "Composition",
-            },
-            {
-              material: "Polyester",
-            },
-            {
-              weight: "Lightweight",
-            },
-            {
-              waterResistance: "Water Resistant",
-            },
-          ],
+          {
+            name: "Composition",
+            material: "Polyester",
+            weight: "Lightweight",
+            waterResistance: "Water Resistant",
+          },
+          {
+            name: "Hardware",
+            material1: "Buttons: Metal",
+            material2: "Zips: Metal",
+          },
         ],
         careInstructions: [
           {
