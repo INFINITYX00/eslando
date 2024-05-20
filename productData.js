@@ -13,45 +13,24 @@ const productData = [
       countryOfOrigin: "Vietnam",
       menu: {
         materials: [
-          [
-            {
-              name: "Outer Fabric",
-            },
-            {
-              material: "100% Organic Cotton Denim",
-            },
-            {
-              weight: "Midweight",
-            },
-            {
-              weave: "Twill Weave",
-            },
-            {
-              waterResistance: "Not Water Resistant",
-            },
-          ],
-          [
-            {
-              name: "Lining Fabric",
-            },
-            {
-              material: "Recycled Fleece",
-            },
-            {
-              weight: "Midweight",
-            },
-            {
-              breathability: "Moderately Breathable",
-            },
-          ],
-          [
-            {
-              name: "Buttons",
-            },
-            {
-              material: "Metal",
-            },
-          ],
+          {
+            name: "Outer",
+            material: "100% Organic Cotton Denim",
+            weight: "Midweight",
+            weave: "Twill Weave",
+            waterResistance: "Not Water Resistant",
+          },
+          {
+            name: "Lining",
+            material: "Recycled Fleece",
+            weight: "Lightweight",
+            breathability: "Moderately Breathable",
+          },
+          {
+            name: "Hardware",
+            material1: "Buttons: Metal",
+            material2: "Zips: Metal",
+          },
         ],
         careInstructions: [
           {
@@ -94,20 +73,17 @@ const productData = [
       countryOfOrigin: "China",
       menu: {
         materials: [
-          [
-            {
-              name: "Composition",
-            },
-            {
-              material: "Polyester",
-            },
-            {
-              weight: "Lightweight",
-            },
-            {
-              waterResistance: "Water Resistant",
-            },
-          ],
+          {
+            name: "Composition",
+            material: "Polyester",
+            weight: "Lightweight",
+            waterResistance: "Water Resistant",
+          },
+          {
+            name: "Hardware",
+            material1: "Buttons: Metal",
+            material2: "Zips: Metal",
+          },
         ],
         careInstructions: [
           {

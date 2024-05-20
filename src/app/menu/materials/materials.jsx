@@ -3,19 +3,62 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./materials.css";
 
-import { Carousel, CarouselItem } from "react-bootstrap";
-import CarouselCard from "./carouselCard/carouselCard";
+import { Tab, Tabs } from "react-bootstrap";
+import { useState } from "react";
 
 export default function Materials({ materials }) {
+  const [key, setKey] = useState(materials[0].name);
+  function handleSelect(k) {
+    setKey(k);
+  }
+  const tabs = materials;
   return (
     <div className="materials">
-      <Carousel>
-        {materials.map((material) => (
-          <Carousel.Item key={material.key}>
-            <CarouselCard material={material} />
-          </Carousel.Item>
+      <Tabs
+        id="uncontrolled-tab-example"
+        className="mb-0"
+        activeKey={key}
+        onSelect={(k) => handleSelect(k)}
+      >
+        {materials.map((material, index) => (
+          <Tab
+            key={material.name}
+            title={material.name}
+            eventKey={material.name}
+            fill
+          >
+            {index == 0 ? (
+              <div className="tab" id="first-tab">
+                {Object.entries(material).map(([key, value]) => {
+                  if (key == "name") {
+                    return;
+                  } else {
+                    return (
+                      <p key={value} className="tabText">
+                        {value}
+                      </p>
+                    );
+                  }
+                })}
+              </div>
+            ) : (
+              <div className="tab" id="nth-tab">
+                {Object.entries(material).map(([key, value]) => {
+                  if (key == "name") {
+                    return;
+                  } else {
+                    return (
+                      <p key={value} className="tabText">
+                        {value}
+                      </p>
+                    );
+                  }
+                })}
+              </div>
+            )}
+          </Tab>
         ))}
-      </Carousel>
+      </Tabs>
     </div>
   );
 }
