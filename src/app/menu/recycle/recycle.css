@@ -62,13 +62,14 @@
   font-size: 14px;
   gap: 20px;
   background-color: var(--mainBgColour);
-  /* padding-top: 10px; */
 }
+
 .shopCard h4 {
   padding-bottom: 10px;
   font-size: 18px;
   background-color: var(--mainBgColour);
 }
+
 .inputField input {
   background-color: transparent;
   width: 90%;

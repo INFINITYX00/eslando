@@ -2,15 +2,16 @@ const productData = [
   {
     product: {
       id: 1,
+      bgImage: "https://images.unsplash.com/photo-1602293589930-45aad59ba3ab?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       imageUrl: "./fleece-lined-jacket.jpg",
       name: "Fleece Lined Jacket",
       brand: "Denimology",
-      season: "FW24",
+      season: "FW20",
       highlights: [
         { svg: "./cotton.svg", title: "Organic Cotton" },
         { svg: "./recyclable.svg", title: "Recycled Fleece" },
       ],
-      countryOfOrigin: "Vietnam",
+      countryOfOrigin: "United States",
       menu: {
         materials: [
           {
@@ -62,10 +63,11 @@ const productData = [
   {
     product: {
       id: 2,
+      bgImage: "https://images.unsplash.com/photo-1562157873-818bc0726f68?q=80&w=1527&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       imageUrl: "./polyester_trousers.jpg",
       name: "Polyester Trousers",
       brand: "PolyWear",
-      season: "SS23",
+      season: "SS22",
       highlights: [
         { svg: "./recyclable.svg", title: "Recycled Polyester" },
         { svg: "./drying.svg", title: "Quick-drying" },
@@ -116,10 +118,11 @@ const productData = [
   {
     product: {
       id: 3,
+      bgImage: "https://images.unsplash.com/photo-1574201635302-388dd92a4c3f?q=80&w=3284&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)",
       imageUrl: "./winter-coat.jpg",
       name: "Oversized Wool Coat",
       brand: "Wildwood Threads",
-      season: "FW24",
+      season: "FW23",
       highlights: [{ svg: "./sheep.svg", title: "Sustainable Wool" }],
       countryOfOrigin: "Egypt",
       menu: {
@@ -169,10 +172,11 @@ const productData = [
   {
     product: {
       id: 4,
+      bgImage: "https://images.unsplash.com/photo-1549439602-43ebca2327af?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       imageUrl: "./handbag.jpg",
       name: "Luxury Leather Handbag",
-      brand: "Elangance Couture",
-      season: "FW24",
+      brand: "Elegance Couture",
+      season: "FW22",
       highlights: [
         { svg: "./leather.svg", title: "Genuine Leather" },
         { svg: "./hand-made.svg", title: "Handmade Craftsmanship" },
@@ -230,10 +234,11 @@ const productData = [
   {
     product: {
       id: 5,
+      bgImage: "https://images.unsplash.com/photo-1581803274518-8d42d0c961de?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       imageUrl: "./sneakers.jpg",
       name: "Sustainable Sneakers",
       brand: "EcoFootwear Co.",
-      season: "FW24",
+      season: "FW23",
       highlights: [
         { svg: "./breathable.svg", title: "Breathable" },
         { svg: "./recyclable.svg", title: "Recycled PET" },
@@ -287,10 +292,11 @@ const productData = [
   {
     product: {
       id: 6,
+      bgImage: "https://images.unsplash.com/photo-1602293589930-45aad59ba3ab?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       imageUrl: "./overalls.jpg",
       name: "Organic Denim Overalls",
-      brand: "Sustainable Style Co.",
-      season: "Spring/Summer 2024",
+      brand: "Denimology",
+      season: "SS21",
       highlights: [
         { svg: "./denim.svg", title: "Organic Denim" },
         { svg: "./recyclable.svg", title: "Recycled Metal Hardware" },

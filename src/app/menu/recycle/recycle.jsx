@@ -82,8 +82,6 @@ export default function Recycle({ recycle }) {
     );
     const json = await response.json();
 
-    // comment
-
     let placeName = undefined;
     let placeAddress = undefined;
     let placePhone = undefined;
@@ -119,7 +117,6 @@ export default function Recycle({ recycle }) {
     <>
       <form className="form" onSubmit={handleSumbit}>
         <div className="recycleDiv">
-          {/* <img src="./recyclable.svg" width="25" /> */}
           <h3 className="recycleHeading">Find Your Local Recycling Shop</h3>
         </div>
         <div className="inputField">
@@ -150,26 +147,7 @@ export default function Recycle({ recycle }) {
                       {shop.phone}
                     </p>
                   )}
-
-                  {/* {shop.rating && (
-                    <p>
-                      <img src="star.svg" alt="star icon" />
-                      {shop.rating}
-                    </p>
-                  )} */}
-
-                  {/* {shop.hours && (
-                    <p className="openingHours">
-                      <img src="hour.svg" alt="hour icon" />
-                      <div className="hours">
-                        {shop.hours.map((day) => (
-                          <p className="day" key={day}>
-                            {day}
-                          </p>
-                        ))}
-                      </div>
-                    </p>
-                  )} */}
+                  
                 </div>
               </div>
             </CarouselItem>
