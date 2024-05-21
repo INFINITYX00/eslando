@@ -10,7 +10,7 @@ const productData = [
         { svg: "./cotton.svg", title: "Organic Cotton" },
         { svg: "./recyclable.svg", title: "Recycled Fleece" },
       ],
-      countryOfOrigin: "Vietnam",
+      countryOfOrigin: "United States",
       menu: {
         materials: [
           {
