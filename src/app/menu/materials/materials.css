@@ -16,7 +16,6 @@
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  /* border: 1px solid var(--midnight-blue); */
   border-bottom: 0;
   background-color: var(--midnight-blue);
   color: var(--mainBgColour);
@@ -29,11 +28,11 @@
 }
 
 .nav-tabs .nav-link.active {
-  /* background-color: var(--mainBgColour); */
   background-color: var(--mainBgColour);
   border: 1px solid var(--midnight-blue);
   border-bottom: 0;
-  color: var(--midnight-blue);;
+  color: var(--midnight-blue);
+  font-weight: bolder;
 }
 
 .tab{
