@@ -7,10 +7,15 @@
     /* transition: .5s ease-in-out,background-color .5s ease-in-out,border-color .5s ease-in-out */
 }
 
+.nav{
+  justify-content: space-between;
+}
+
+
 .nav-tabs .nav-link{
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
   border: 1px solid var(--midnight-blue);
   border-bottom: 0;
   background-color: var(--mainBgColour);
@@ -19,6 +24,7 @@
 
 .nav-item{
   background-color: #ebebea;
+  width: auto;
 }
 
 .nav-tabs .nav-link.active {
@@ -43,15 +49,7 @@
   /* transition: opacity .5s linear; */
 }
 
-#first-tab{
-  border-top-right-radius: 5px;
-  border-bottom-right-radius: 5px;
-  border-bottom-left-radius: 5px;
-  border: 1px solid var(--midnight-blue);
-}
-
-#nth-tab{
-  border-top-right-radius: 5px;
+#tab{
   border-bottom-right-radius: 5px;
   border-bottom-left-radius: 5px;
   border: 1px solid var(--midnight-blue);

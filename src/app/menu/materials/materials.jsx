@@ -19,44 +19,27 @@ export default function Materials({ materials }) {
         className="mb-0"
         activeKey={key}
         onSelect={(k) => handleSelect(k)}
+        fill
       >
         {materials.map((material, index) => (
           <Tab
             key={material.name}
             title={material.name}
-            
             eventKey={material.name}
-            fill="true"
           >
-            {index == 0 ? (
-              <div className="tab" id="first-tab">
-                {Object.entries(material).map(([key, value]) => {
-                  if (key == "name") {
-                    return;
-                  } else {
-                    return (
-                      <p key={value} className="tabText">
-                        {value}
-                      </p>
-                    );
-                  }
-                })}
-              </div>
-            ) : (
-              <div className="tab" id="nth-tab">
-                {Object.entries(material).map(([key, value]) => {
-                  if (key == "name") {
-                    return;
-                  } else {
-                    return (
-                      <p key={value} className="tabText">
-                        {value}
-                      </p>
-                    );
-                  }
-                })}
-              </div>
-            )}
+            <div className="tab" id="tab">
+              {Object.entries(material).map(([key, value]) => {
+                if (key == "name") {
+                  return;
+                } else {
+                  return (
+                    <p key={value} className="tabText">
+                      {value}
+                    </p>
+                  );
+                }
+              })}
+            </div>
           </Tab>
         ))}
       </Tabs>
