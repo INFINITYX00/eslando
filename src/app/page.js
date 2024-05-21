@@ -17,7 +17,7 @@ export default function Home() {
     <main className={styles.main}>
       <div className={styles.description}>
         <div className={styles.landing}>
-          <LandingPage productName={data.name} brand={data.brand} />
+          <LandingPage bgImage={data.bgImage} productName={data.name} brand={data.brand} />
         </div>
         <motion.div
           initial={{ opacity: 0 }}
