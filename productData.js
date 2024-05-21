@@ -215,8 +215,8 @@ const productData = [
         ],
         certifications: {
           BCI: false,
-          BCorp: true,
-          BLUESIGN: false,
+          BCorp: false,
+          BLUESIGN: true,
           Fairtrade: false,
           FSC: false,
           GOTS: false,

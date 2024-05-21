@@ -25,7 +25,7 @@ export default function Certifications({ certifications }) {
           <div>
             <img
               className={CertCSS.BLUESIGNImage}
-              src="./BLUESIGN.svg"
+              src="./BLUESIGN.png"
               alt="BLUESIGN image"
             />
           </div>
