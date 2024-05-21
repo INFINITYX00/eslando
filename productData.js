@@ -5,7 +5,7 @@ const productData = [
       imageUrl: "./fleece-lined-jacket.jpg",
       name: "Fleece Lined Jacket",
       brand: "Denimology",
-      season: "FW24",
+      season: "FW20",
       highlights: [
         { svg: "./cotton.svg", title: "Organic Cotton" },
         { svg: "./recyclable.svg", title: "Recycled Fleece" },
@@ -65,7 +65,7 @@ const productData = [
       imageUrl: "./polyester_trousers.jpg",
       name: "Polyester Trousers",
       brand: "PolyWear",
-      season: "SS23",
+      season: "SS22",
       highlights: [
         { svg: "./recyclable.svg", title: "Recycled Polyester" },
         { svg: "./drying.svg", title: "Quick-drying" },
@@ -119,7 +119,7 @@ const productData = [
       imageUrl: "./winter-coat.jpg",
       name: "Oversized Wool Coat",
       brand: "Wildwood Threads",
-      season: "FW24",
+      season: "FW23",
       highlights: [{ svg: "./sheep.svg", title: "Sustainable Wool" }],
       countryOfOrigin: "Egypt",
       menu: {
@@ -172,7 +172,7 @@ const productData = [
       imageUrl: "./handbag.jpg",
       name: "Luxury Leather Handbag",
       brand: "Elangance Couture",
-      season: "FW24",
+      season: "FW22",
       highlights: [
         { svg: "./leather.svg", title: "Genuine Leather" },
         { svg: "./hand-made.svg", title: "Handmade Craftsmanship" },
@@ -233,7 +233,7 @@ const productData = [
       imageUrl: "./sneakers.jpg",
       name: "Sustainable Sneakers",
       brand: "EcoFootwear Co.",
-      season: "FW24",
+      season: "FW23",
       highlights: [
         { svg: "./breathable.svg", title: "Breathable" },
         { svg: "./recyclable.svg", title: "Recycled PET" },
@@ -289,8 +289,8 @@ const productData = [
       id: 6,
       imageUrl: "./overalls.jpg",
       name: "Organic Denim Overalls",
-      brand: "Sustainable Style Co.",
-      season: "Spring/Summer 2024",
+      brand: "Denimology",
+      season: "SS21",
       highlights: [
         { svg: "./denim.svg", title: "Organic Denim" },
         { svg: "./recyclable.svg", title: "Recycled Metal Hardware" },
