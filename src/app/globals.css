@@ -6,11 +6,11 @@
   VARIABLES
 */
 :root {
-  --mainBgColour:  #FFF7EF;
-  --lavender: #C7AEE7;
-  --lime: #E6FE74;
-  --white: #FCFCFC;
-  --midnight-blue: #2D2C34;
+  --mainBgColour: #fff7ef;
+  --lavender: #c7aee7;
+  --lime: #e6fe74;
+  --white: #fcfcfc;
+  --midnight-blue: #000000;
   --grey: #b4b4b4;
 }
 
@@ -88,4 +88,3 @@ h6 {
 #__next {
   isolation: isolate;
 }
-

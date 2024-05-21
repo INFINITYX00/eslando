@@ -3,7 +3,7 @@ const productData = [
     product: {
       id: 1,
       imageUrl: "./fleece-lined-jacket.jpg",
-      name: "Fleece Denim Jacket",
+      name: "Fleece Lined Jacket",
       brand: "Denimology",
       season: "FW24",
       highlights: [
@@ -117,19 +117,16 @@ const productData = [
     product: {
       id: 3,
       imageUrl: "./winter-coat.jpg",
-      name: "Insultated Winter Coat",
-      brand: "FrostWear",
+      name: "Oversized Wool Coat",
+      brand: "Wildwood Threads",
       season: "FW24",
-      highlights: [
-        { svg: "./cotton.svg", title: "Organic Cotton" },
-        { svg: "./recyclable.svg", title: "Recycled Insulation" },
-      ],
-      countryOfOrigin: "Vietnam",
+      highlights: [{ svg: "./sheep.svg", title: "Sustainable Wool" }],
+      countryOfOrigin: "Egypt",
       menu: {
         materials: [
           {
             name: "Outer",
-            material: "100% Organic Cotton Canvas",
+            material: "100% Sustainabilty Sourced Wool",
             weight: "Heavyweight",
             weave: "Plain Weave",
             waterResistance: "Water Resistant",
@@ -142,27 +139,22 @@ const productData = [
           },
           {
             name: "Hardware",
-            material1: "Buttons: Metal",
-            material2: "Zips: Metal",
+            material1: "Buttons: Plastic",
           },
         ],
         careInstructions: [
           {
-            image: "./wash.svg",
-            instruction: "Machine Wash",
+            image: "./wash-hand.svg",
+            instruction: "Spot Clean with Damp Cloth",
           },
           {
             image: "./dry-flat.svg",
             instruction: "Dry Flat",
           },
-          {
-            image: "./iron.svg",
-            instruction: "Iron Cool (Max 110°C)",
-          },
         ],
         certifications: {
           BCI: false,
-          BCorp: true,
+          BCorp: false,
           BLUESIGN: false,
           Fairtrade: true,
           FSC: false,
@@ -223,8 +215,8 @@ const productData = [
         ],
         certifications: {
           BCI: false,
-          BCorp: true,
-          BLUESIGN: false,
+          BCorp: false,
+          BLUESIGN: true,
           Fairtrade: false,
           FSC: false,
           GOTS: false,
@@ -243,24 +235,24 @@ const productData = [
       brand: "EcoFootwear Co.",
       season: "FW24",
       highlights: [
-        { svg: "./recyclable.svg", title: "Recycled Materials" },
-        { svg: "./cotton.svg", title: "Organic Cotton Lining" },
+        { svg: "./breathable.svg", title: "Breathable" },
+        { svg: "./recyclable.svg", title: "Recycled PET" },
       ],
       countryOfOrigin: "Vietnam",
       menu: {
         materials: [
           {
             name: "Upper",
-            material: "Recycled Pet",
+            material: "Recycled PET",
             weight: "Lightweight",
             weave: "Knit",
             waterResistance: "Not Water Resistant",
           },
           {
             name: "Lining",
-            material: "Organic Cotton",
-            weight: "Medium",
-            breathability: "High",
+            material: "Viscose",
+            weight: "Medium weight",
+            breathability: "High breathability",
           },
           {
             name: "Outsole",
@@ -270,8 +262,8 @@ const productData = [
         ],
         careInstructions: [
           {
-            image: "./hand-wash.svg",
-            instruction: "Hand Wash",
+            image: "./wash-hand.svg",
+            instruction: "Wipe Clean with Damp Cloth",
           },
           {
             image: "./dry-flat.svg",
@@ -300,7 +292,7 @@ const productData = [
       brand: "Sustainable Style Co.",
       season: "Spring/Summer 2024",
       highlights: [
-        { svg: "./cotton.svg", title: "Organic Denim" },
+        { svg: "./denim.svg", title: "Organic Denim" },
         { svg: "./recyclable.svg", title: "Recycled Metal Hardware" },
       ],
       countryOfOrigin: "United States",
@@ -338,14 +330,14 @@ const productData = [
           },
         ],
         certifications: {
-          BCI: false,
+          BCI: true,
           BCorp: true,
           BLUESIGN: false,
-          Fairtrade: true,
+          Fairtrade: false,
           FSC: false,
           GOTS: true,
           OEKOTEX: false,
-          WRAP: true,
+          WRAP: false,
         },
       },
     },

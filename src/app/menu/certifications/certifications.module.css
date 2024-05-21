@@ -32,8 +32,7 @@
 }
 
 .BCIImage {
-  width: auto;
-  max-height: 99px;
+  max-width: 110px;
   background-color: var(--mainBgColour);
 }
 
@@ -49,7 +48,7 @@
   background-color: var(--mainBgColour);
 }
 
-.OKEOTEXImage {
+.OEKOTEXImage {
   width: auto;
   max-height: 99px;
   background-color: var(--mainBgColour);
