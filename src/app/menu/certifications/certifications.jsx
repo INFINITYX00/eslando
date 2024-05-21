@@ -9,7 +9,7 @@ export default function Certifications({ certifications }) {
       <div className={CertCSS.imgContainer}>
         {certifications.BCI && (
           <div>
-            <img className={CertCSS.BCIImage} src="./BCI.svg" alt="BCI image" />
+            <img className={CertCSS.BCIImage} src="./BCI.png" alt="BCI image" />
           </div>
         )}
         {certifications.BCorp && (
@@ -53,12 +53,12 @@ export default function Certifications({ certifications }) {
             />
           </div>
         )}
-        {certifications.OKEOTEX && (
+        {certifications.OEKOTEX && (
           <div>
             <img
-              className={CertCSS.OKEOTEXImage}
-              src="./OKEOTEX.svg"
-              alt="OKEOTEX image"
+              className={CertCSS.OEKOTEXImage}
+              src="./OEKOTEX.png"
+              alt="OEKOTEX image"
             />
           </div>
         )}
