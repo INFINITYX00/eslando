@@ -1,7 +1,5 @@
-.header h1 {
+.header img {
   background-color: var(--mainBgColour);
-  text-align: center;
-  width: 100vw;
-  margin: 20px 0 10px 0;
-  font-weight: 900;
+  width: 30vw;
+  margin: 10px auto -15px auto;
 }
