@@ -4,7 +4,7 @@ export default function Header() {
   return (
     <>
       <header className={HeaderCSS.header}>
-        <h1>RELABEL</h1>
+      <img src="./relabel.png" alt="Relabel" />
       </header>
     </>
   );

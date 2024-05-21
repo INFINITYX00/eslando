@@ -24,8 +24,9 @@ export default function Materials({ materials }) {
           <Tab
             key={material.name}
             title={material.name}
+            
             eventKey={material.name}
-            fill
+            fill="true"
           >
             {index == 0 ? (
               <div className="tab" id="first-tab">

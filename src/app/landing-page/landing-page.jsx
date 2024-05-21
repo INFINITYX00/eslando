@@ -27,7 +27,7 @@ export default function LandingPage({ productName, brand }) {
         ></img>
 
         <div className={`${LandingCSS.header} ${LandingCSS.fadeInUpAnimation}`}>
-          <h1>RELABEL</h1>
+        <img src="./relabel.png" alt="Relabel" />
         </div>
         <div
           className={`${LandingCSS.landingText} ${LandingCSS.fadeInUpAnimation}`}

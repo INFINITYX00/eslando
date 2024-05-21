@@ -42,10 +42,10 @@
   width: 100%;
 }
 
-.header h1 {
+.header img {
   background-color: transparent;
-  text-align: center;
-  font-weight: 900;
+  width: 30vw;
+  margin: 0px auto -25px auto;
 }
 
 .landingScroll {
