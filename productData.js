@@ -171,7 +171,7 @@ const productData = [
       id: 4,
       imageUrl: "./handbag.jpg",
       name: "Luxury Leather Handbag",
-      brand: "Elangance Couture",
+      brand: "Elegance Couture",
       season: "FW22",
       highlights: [
         { svg: "./leather.svg", title: "Genuine Leather" },
