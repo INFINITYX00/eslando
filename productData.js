@@ -292,7 +292,7 @@ const productData = [
       brand: "Sustainable Style Co.",
       season: "Spring/Summer 2024",
       highlights: [
-        { svg: "./cotton.svg", title: "Organic Denim" },
+        { svg: "./denim.svg", title: "Organic Denim" },
         { svg: "./recyclable.svg", title: "Recycled Metal Hardware" },
       ],
       countryOfOrigin: "United States",
