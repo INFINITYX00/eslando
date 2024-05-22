@@ -7,12 +7,13 @@
 ![GitHub forks](https://img.shields.io/github/forks/INFINITYX00/eslando)
 ![GitHub stars](https://img.shields.io/github/stars/INFINITYX00/eslando)
 
-![Landingrelabel](https://github.com/INFINITYX00/eslando/assets/145766101/9f146806-dd12-467f-876f-fe47338bc43c) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ![relabelmainpage](https://github.com/INFINITYX00/eslando/assets/145766101/1a348333-4b3c-45ae-8114-8bb802acccaa)
+
 
 
 
 ## Table of Contents
 
+- [Screenshots](#screenshots)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Features](#features)
@@ -29,6 +30,9 @@
 - [Credits](#credits)
 - [License](#license)
 
+## Screenshots
+
+![Landingrelabel](https://github.com/INFINITYX00/eslando/assets/145766101/9f146806-dd12-467f-876f-fe47338bc43c) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ![relabelmainpage](https://github.com/INFINITYX00/eslando/assets/145766101/1a348333-4b3c-45ae-8114-8bb802acccaa)
 ## Installation
 
 To run the project locally, follow these steps:
