@@ -7,6 +7,10 @@
 ![GitHub forks](https://img.shields.io/github/forks/INFINITYX00/eslando)
 ![GitHub stars](https://img.shields.io/github/stars/INFINITYX00/eslando)
 
+![Landingrelabel](https://github.com/INFINITYX00/eslando/assets/145766101/9f146806-dd12-467f-876f-fe47338bc43c)![relabelmainpage](https://github.com/INFINITYX00/eslando/assets/145766101/1a348333-4b3c-45ae-8114-8bb802acccaa)
+
+
+
 ## Table of Contents
 
 - [Installation](#installation)
@@ -87,13 +91,15 @@ In the future, we plan to enhance the Digital Product Passport for Eslando by:
 ## Accessing the Deployed Application
 
 The Digital Product Passport for Eslando is deployed on Vercel, a cloud platform for deploying applications. You can access the deployed application [here](https://eslando.vercel.app/?product=0) from a mobile or if from accessing from desktop hit F12 and press CTRL + SHIFT + M to enter mobile mode. This product is an example if you were to scan a QR code. Feel free to explore the application and provide any feedback or suggestions for improvement.
+<br>
 Here are all the products we are currently displaying:
-[Fleece Lined Jacket](https://eslando.vercel.app/?product=0)
-[Polyester Trousers](https://eslando.vercel.app/?product=1)
-[Oversized Wool Coat](https://eslando.vercel.app/?product=2)
-[Luxury Leather Handbag](https://eslando.vercel.app/?product=3)
-[Sustainable Sneakers](https://eslando.vercel.app/?product=4)
-[Organic Denim Overalls](https://eslando.vercel.app/?product=5)
+<br>
+- [Fleece Lined Jacket](https://eslando.vercel.app/?product=0)
+- [Polyester Trousers](https://eslando.vercel.app/?product=1)
+- [Oversized Wool Coat](https://eslando.vercel.app/?product=2)
+- [Luxury Leather Handbag](https://eslando.vercel.app/?product=3)
+- [Sustainable Sneakers](https://eslando.vercel.app/?product=4)
+- [Organic Denim Overalls](https://eslando.vercel.app/?product=5)
 
 ## Community Engagement
 
