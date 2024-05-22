@@ -20,7 +20,7 @@
 - [Future Enhancements](#future-enhancements)
 - [Accessing the Deployed Application](#accessing-the-deployed-application)
 - [Community Engagement](#community-engagement)
-- [Support and Documentation](#support-and-documentation)
+- [Support](#support)
 - [FAQs and Press Release](#FAQs-and-Press-Release)
 - [Credits](#credits)
 - [License](#license)
@@ -73,7 +73,7 @@ Throughout the development of this project, we gained valuable insights into var
 
 ## Standout Features
 
-The Digital Product Passport for Eslando stands out due to its user-centric design, seamless user experience, and robust functionality. We prioritize simplicity, accessibility, and reliability to ensure that users can easily navigate the platform and accomplish their recycling goals effectively.
+The Digital Product Passport for Eslando stands out due to its user-centric design, seamless user experience, and robust functionality. We prioritise simplicity, accessibility, and reliability to ensure that users can easily navigate the platform and accomplish their recycling goals effectively.
 
 ## Future Enhancements
 
@@ -87,6 +87,13 @@ In the future, we plan to enhance the Digital Product Passport for Eslando by:
 ## Accessing the Deployed Application
 
 The Digital Product Passport for Eslando is deployed on Vercel, a cloud platform for deploying applications. You can access the deployed application [here](https://eslando.vercel.app/?product=0) from a mobile or if from accessing from desktop hit F12 and press CTRL + SHIFT + M to enter mobile mode. This product is an example if you were to scan a QR code. Feel free to explore the application and provide any feedback or suggestions for improvement.
+Here are all the products we are currently displaying:
+[Fleece Lined Jacket](https://eslando.vercel.app/?product=0)
+[Polyester Trousers](https://eslando.vercel.app/?product=1)
+[Oversized Wool Coat](https://eslando.vercel.app/?product=2)
+[Luxury Leather Handbag](https://eslando.vercel.app/?product=3)
+[Sustainable Sneakers](https://eslando.vercel.app/?product=4)
+[Organic Denim Overalls](https://eslando.vercel.app/?product=5)
 
 ## Community Engagement
 
@@ -95,18 +102,28 @@ We welcome contributions from the community to help improve the Digital Product 
 ## FAQs and Press Release
 
 ### FAQs
+
 - [FAQs](FAQS.md) - Common questions about the Digital Product Passport for Eslando.
 
 ### Press Release
+
 - [Press Release](PRESSRELEASE.md) - Official press release for the Digital Product Passport for Eslando.
 
-## Support and Documentation
+## Support
 
-For additional support or documentation, please refer to the project's documentation [here](#). You can also reach out to the project maintainers for assistance.
+For additional support, you can reach out to the project maintainers for assistance.
 
 ## Credits
 
-- Special thanks to [Alex Curwood] ([GitHub](https://github.com/alexcurwood)) and [David Adam Silva] ([GitHub](https://github.com/DavidAdam1323)) and [Emma Nolan] ([GitHub](https://github.com/eminaction)) and [Gavin Persad] ([GitHub](https://github.com/Gavin-Persad)) and [Holly Massey] ([GitHub](https://github.com/hollrosey)) for their contributions to the project. I am [Stephen Walker] ([GitHub](https://github.com/INFINITYX00)), one of the co-creators of the project.
+Team Mirai creators of the project:
+[Alex Curwood] ([GitHub](https://github.com/alexcurwood))  
+[David Adam Silva] ([GitHub](https://github.com/DavidAdam1323))
+[Emma Nolan] ([GitHub](https://github.com/eminaction))
+[Gavin Persad] ([GitHub](https://github.com/Gavin-Persad))
+[Holly Massey] ([GitHub](https://github.com/hollrosey))
+[Stephen Walker] ([GitHub](https://github.com/INFINITYX00))
+
+This project utilises React, Bootstrap, Framer Motion.
 
 ## License
 
