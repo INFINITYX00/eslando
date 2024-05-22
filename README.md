@@ -52,11 +52,9 @@ The Relabel Digital Product Passport was created for a company called Eslando. I
 
 ## Features
 
-User-friendly Interface: The platform offers an intuitive interface for creating and managing digital passports, ensuring ease of use for both businesses and consumers.
+User-friendly Interface: The platform offers an intuitive interface for creating and managing products on Digital Product Passports, ensuring ease of use for both businesses and consumers.
 
 Comprehensive Information: Users can access detailed product information, including materials, care instructions, recycling options, and certifications, facilitating informed decisions and promoting sustainability.
-
-Integration with External Databases: The application integrates with external databases and APIs to provide up-to-date and comprehensive product information, enhancing the user experience and reliability of the platform.
 
 ## Development Journey
 
@@ -78,7 +76,6 @@ Throughout the development of this project, we gained valuable insights into var
 
 - Next.js for building efficient and scalable web applications
 - JavaScript for implementing dynamic and interactive features
-- Authentication and authorization techniques for securing user data
 - Integration of third-party APIs for accessing external resources
 - UI/UX design principles for creating intuitive user interfaces
 
@@ -90,6 +87,7 @@ The Relabel Digital Product Passport for Eslando stands out due to its user-cent
 
 In the future, we plan to enhance the Relabel Digital Product Passport for Eslando by:
 
+- Integration with External Databases and APIs to provide up-to-date and comprehensive product information, enhancing the user experience and reliability of the platform.
 - Adding support for additional product categories and certifications
 - Improving accessibility features for users with disabilities
 - Integrating machine learning algorithms for predictive analytics on recycling trends
