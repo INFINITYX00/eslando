@@ -34,7 +34,7 @@
 
 Here is a screenshot of one of the products displaying on the Relabel Digital Product Passport.
 
-![Landingrelabel](https://github.com/INFINITYX00/eslando/assets/145766101/9f146806-dd12-467f-876f-fe47338bc43c) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ![relabelmainpage](https://github.com/INFINITYX00/eslando/assets/145766101/1a348333-4b3c-45ae-8114-8bb802acccaa)
+![Landingrelabel](https://github.com/INFINITYX00/eslando/assets/145766101/9f146806-dd12-467f-876f-fe47338bc43c) &nbsp;&nbsp;&nbsp; ![relabelmainpage](https://github.com/INFINITYX00/eslando/assets/145766101/1a348333-4b3c-45ae-8114-8bb802acccaa)
 
 ## Installation
 
