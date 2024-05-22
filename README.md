@@ -1,4 +1,4 @@
-# Digital Product Passport for Eslando
+# Relabel Digital Product Passport
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ![GitHub last commit](https://img.shields.io/github/last-commit/INFINITYX00/eslando)
@@ -29,10 +29,14 @@
 - [FAQs and Press Release](#FAQs-and-Press-Release)
 - [Credits](#credits)
 - [License](#license)
+- 
 
 ## Screenshots
 
+Here is a screenshot of one of the products displaying on the Relabel Digital Product Passport.
+
 ![Landingrelabel](https://github.com/INFINITYX00/eslando/assets/145766101/9f146806-dd12-467f-876f-fe47338bc43c) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ![relabelmainpage](https://github.com/INFINITYX00/eslando/assets/145766101/1a348333-4b3c-45ae-8114-8bb802acccaa)
+
 ## Installation
 
 To run the project locally, follow these steps:
@@ -45,7 +49,7 @@ To run the project locally, follow these steps:
 
 ## Usage
 
-The Digital Product Passport for Eslando is a web application that serves as a centralized platform for displaying information on products such as materials, care instructions, recycling options, and certifications. Users can scan QR codes attached to products to access digital passports containing detailed information, facilitating the recycling process and promoting sustainability.
+The Relabel Digital Product Passport was created for a company called Eslando. It is a web application that serves as a centralized platform for displaying information on products such as materials, care instructions, recycling options, and certifications. Users can scan QR codes attached to products to access digital passports containing detailed information, facilitating the recycling process and promoting sustainability.
 
 ## Features
 
@@ -81,11 +85,11 @@ Throughout the development of this project, we gained valuable insights into var
 
 ## Standout Features
 
-The Digital Product Passport for Eslando stands out due to its user-centric design, seamless user experience, and robust functionality. We prioritise simplicity, accessibility, and reliability to ensure that users can easily navigate the platform and accomplish their recycling goals effectively.
+The Relabel Digital Product Passport for Eslando stands out due to its user-centric design, seamless user experience, and robust functionality. We prioritise simplicity, accessibility, and reliability to ensure that users can easily navigate the platform and accomplish their recycling goals effectively.
 
 ## Future Enhancements
 
-In the future, we plan to enhance the Digital Product Passport for Eslando by:
+In the future, we plan to enhance the Relabel Digital Product Passport for Eslando by:
 
 - Adding support for additional product categories and certifications
 - Improving accessibility features for users with disabilities
@@ -94,7 +98,7 @@ In the future, we plan to enhance the Digital Product Passport for Eslando by:
 
 ## Accessing the Deployed Application
 
-The Digital Product Passport for Eslando is deployed on Vercel, a cloud platform for deploying applications. You can access the deployed application [here](https://eslando.vercel.app/?product=0) from a mobile or if from accessing from desktop hit F12 and press CTRL + SHIFT + M to enter mobile mode. This product is an example if you were to scan a QR code. Feel free to explore the application and provide any feedback or suggestions for improvement.
+The Relabel Digital Product Passport for Eslando is deployed on Vercel, a cloud platform for deploying applications. You can access the deployed application [here](https://eslando.vercel.app/?product=0) from a mobile or if from accessing from desktop hit F12 and press CTRL + SHIFT + M to enter mobile mode. This product is an example if you were to scan a QR code. Feel free to explore the application and provide any feedback or suggestions for improvement.
 <br>
 Here are all the products we are currently displaying:
 <br>
@@ -113,11 +117,11 @@ We welcome contributions from the community to help improve the Digital Product 
 
 ### FAQs
 
-- [FAQs](FAQS.md) - Common questions about the Digital Product Passport for Eslando.
+- [FAQs](FAQS.md) - Common questions about the Relabel Digital Product Passport for Eslando.
 
 ### Press Release
 
-- [Press Release](PRESSRELEASE.md) - Official press release for the Digital Product Passport for Eslando.
+- [Press Release](PRESSRELEASE.md) - Official press release for the Relabel Digital Product Passport for Eslando.
 
 ## Support
 
@@ -125,7 +129,7 @@ For additional support, you can reach out to the project maintainers for assista
 
 ## Credits
 
-Team Mirai creators of the project:
+Team Mirai are the creators of the project:
 
 - [Alex Curwood] ([GitHub](https://github.com/alexcurwood))  
 - [David Adam Silva] ([GitHub](https://github.com/DavidAdam1323))
