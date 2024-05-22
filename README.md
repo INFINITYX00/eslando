@@ -116,12 +116,13 @@ For additional support, you can reach out to the project maintainers for assista
 ## Credits
 
 Team Mirai creators of the project:
-[Alex Curwood] ([GitHub](https://github.com/alexcurwood))  
-[David Adam Silva] ([GitHub](https://github.com/DavidAdam1323))
-[Emma Nolan] ([GitHub](https://github.com/eminaction))
-[Gavin Persad] ([GitHub](https://github.com/Gavin-Persad))
-[Holly Massey] ([GitHub](https://github.com/hollrosey))
-[Stephen Walker] ([GitHub](https://github.com/INFINITYX00))
+
+- [Alex Curwood] ([GitHub](https://github.com/alexcurwood))  
+- [David Adam Silva] ([GitHub](https://github.com/DavidAdam1323))
+- [Emma Nolan] ([GitHub](https://github.com/eminaction))
+- [Gavin Persad] ([GitHub](https://github.com/Gavin-Persad))
+- [Holly Massey] ([GitHub](https://github.com/hollrosey))
+- [Stephen Walker] ([GitHub](https://github.com/INFINITYX00))
 
 This project utilises React, Bootstrap, Framer Motion.
 
