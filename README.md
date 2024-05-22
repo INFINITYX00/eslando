@@ -29,7 +29,6 @@
 - [FAQs and Press Release](#FAQs-and-Press-Release)
 - [Credits](#credits)
 - [License](#license)
-- 
 
 ## Screenshots
 
@@ -67,11 +66,11 @@ You can find our development journey on the roadmap [here](https://github.com/us
 
 ## Motivation
 
-Our motivation behind building this project stemmed from the need for Eslando to have a digital product passport solution. We aimed to address the challenges associated with recycling processes and contribute to a more sustainable future by providing an efficient and transparent platform for managing product information.
+Our motivation behind building this project stemmed from the need for Eslando to have a Digital Product Passport solution. We aimed to address the challenges associated with recycling processes and contribute to a more sustainable future by providing an efficient and transparent platform for managing product information.
 
 ## Problem Solving
 
-The Digital Product Passport for Eslando addresses the challenge of inefficient tracking and management of product information. By allowing companies to attach QR codes to their products and providing users with access to digital passports, the application simplifies the recycling process and promotes transparency in the industry.
+The Digital Product Passport for Eslando addresses the challenge of inefficient tracking and management of product information. By allowing companies to attach QR codes to their products and providing users with access to Digital Product Passports, the application simplifies the recycling process and promotes transparency in the industry.
 
 ## Learning Experience
 
