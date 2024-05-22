@@ -1,4 +1,4 @@
-# Digital Product Passport for Eslando
+# Relabel Digital Product Passport
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ![GitHub last commit](https://img.shields.io/github/last-commit/INFINITYX00/eslando)
@@ -7,8 +7,13 @@
 ![GitHub forks](https://img.shields.io/github/forks/INFINITYX00/eslando)
 ![GitHub stars](https://img.shields.io/github/stars/INFINITYX00/eslando)
 
+
+
+
+
 ## Table of Contents
 
+- [Screenshots](#screenshots)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Features](#features)
@@ -20,10 +25,16 @@
 - [Future Enhancements](#future-enhancements)
 - [Accessing the Deployed Application](#accessing-the-deployed-application)
 - [Community Engagement](#community-engagement)
-- [Support and Documentation](#support-and-documentation)
+- [Support](#support)
 - [FAQs and Press Release](#FAQs-and-Press-Release)
 - [Credits](#credits)
 - [License](#license)
+
+## Screenshots
+
+Here is a screenshot of one of the products displaying on the Relabel Digital Product Passport.
+
+![Landingrelabel](https://github.com/INFINITYX00/eslando/assets/145766101/9f146806-dd12-467f-876f-fe47338bc43c) &nbsp;&nbsp;&nbsp; ![relabelmainpage](https://github.com/INFINITYX00/eslando/assets/145766101/1a348333-4b3c-45ae-8114-8bb802acccaa)
 
 ## Installation
 
@@ -37,7 +48,7 @@ To run the project locally, follow these steps:
 
 ## Usage
 
-The Digital Product Passport for Eslando is a web application that serves as a centralized platform for displaying information on products such as materials, care instructions, recycling options, and certifications. Users can scan QR codes attached to products to access digital passports containing detailed information, facilitating the recycling process and promoting sustainability.
+The Relabel Digital Product Passport was created for a company called Eslando. It is a web application that serves as a centralized platform for displaying information on products such as materials, care instructions, recycling options, and certifications. Users can scan QR codes attached to products to access digital passports containing detailed information, facilitating the recycling process and promoting sustainability.
 
 ## Features
 
@@ -55,11 +66,11 @@ You can find our development journey on the roadmap [here](https://github.com/us
 
 ## Motivation
 
-Our motivation behind building this project stemmed from the need for Eslando to have a digital product passport solution. We aimed to address the challenges associated with recycling processes and contribute to a more sustainable future by providing an efficient and transparent platform for managing product information.
+Our motivation behind building this project stemmed from the need for Eslando to have a Digital Product Passport solution. We aimed to address the challenges associated with recycling processes and contribute to a more sustainable future by providing an efficient and transparent platform for managing product information.
 
 ## Problem Solving
 
-The Digital Product Passport for Eslando addresses the challenge of inefficient tracking and management of product information. By allowing companies to attach QR codes to their products and providing users with access to digital passports, the application simplifies the recycling process and promotes transparency in the industry.
+The Digital Product Passport for Eslando addresses the challenge of inefficient tracking and management of product information. By allowing companies to attach QR codes to their products and providing users with access to Digital Product Passports, the application simplifies the recycling process and promotes transparency in the industry.
 
 ## Learning Experience
 
@@ -73,11 +84,11 @@ Throughout the development of this project, we gained valuable insights into var
 
 ## Standout Features
 
-The Digital Product Passport for Eslando stands out due to its user-centric design, seamless user experience, and robust functionality. We prioritize simplicity, accessibility, and reliability to ensure that users can easily navigate the platform and accomplish their recycling goals effectively.
+The Relabel Digital Product Passport for Eslando stands out due to its user-centric design, seamless user experience, and robust functionality. We prioritise simplicity, accessibility, and reliability to ensure that users can easily navigate the platform and accomplish their recycling goals effectively.
 
 ## Future Enhancements
 
-In the future, we plan to enhance the Digital Product Passport for Eslando by:
+In the future, we plan to enhance the Relabel Digital Product Passport for Eslando by:
 
 - Adding support for additional product categories and certifications
 - Improving accessibility features for users with disabilities
@@ -86,7 +97,16 @@ In the future, we plan to enhance the Digital Product Passport for Eslando by:
 
 ## Accessing the Deployed Application
 
-The Digital Product Passport for Eslando is deployed on Vercel, a cloud platform for deploying applications. You can access the deployed application [here](https://eslando.vercel.app/?product=0) from a mobile or if from accessing from desktop hit F12 and press CTRL + SHIFT + M to enter mobile mode. This product is an example if you were to scan a QR code. Feel free to explore the application and provide any feedback or suggestions for improvement.
+The Relabel Digital Product Passport for Eslando is deployed on Vercel, a cloud platform for deploying applications. You can access the deployed application [here](https://eslando.vercel.app/?product=0) from a mobile or if from accessing from desktop hit F12 and press CTRL + SHIFT + M to enter mobile mode. This product is an example if you were to scan a QR code. Feel free to explore the application and provide any feedback or suggestions for improvement.
+<br>
+Here are all the products we are currently displaying:
+<br>
+- [Fleece Lined Jacket](https://eslando.vercel.app/?product=0)
+- [Polyester Trousers](https://eslando.vercel.app/?product=1)
+- [Oversized Wool Coat](https://eslando.vercel.app/?product=2)
+- [Luxury Leather Handbag](https://eslando.vercel.app/?product=3)
+- [Sustainable Sneakers](https://eslando.vercel.app/?product=4)
+- [Organic Denim Overalls](https://eslando.vercel.app/?product=5)
 
 ## Community Engagement
 
@@ -95,18 +115,29 @@ We welcome contributions from the community to help improve the Digital Product 
 ## FAQs and Press Release
 
 ### FAQs
-- [FAQs](FAQS.md) - Common questions about the Digital Product Passport for Eslando.
+
+- [FAQs](FAQS.md) - Common questions about the Relabel Digital Product Passport for Eslando.
 
 ### Press Release
-- [Press Release](PRESSRELEASE.md) - Official press release for the Digital Product Passport for Eslando.
 
-## Support and Documentation
+- [Press Release](PRESSRELEASE.md) - Official press release for the Relabel Digital Product Passport for Eslando.
 
-For additional support or documentation, please refer to the project's documentation [here](#). You can also reach out to the project maintainers for assistance.
+## Support
+
+For additional support, you can reach out to the project maintainers for assistance.
 
 ## Credits
 
-- Special thanks to [Alex Curwood] ([GitHub](https://github.com/alexcurwood)) and [David Adam Silva] ([GitHub](https://github.com/DavidAdam1323)) and [Emma Nolan] ([GitHub](https://github.com/eminaction)) and [Gavin Persad] ([GitHub](https://github.com/Gavin-Persad)) and [Holly Massey] ([GitHub](https://github.com/hollrosey)) for their contributions to the project. I am [Stephen Walker] ([GitHub](https://github.com/INFINITYX00)), one of the co-creators of the project.
+Team Mirai are the creators of the project:
+
+- [Alex Curwood] ([GitHub](https://github.com/alexcurwood))  
+- [David Adam Silva] ([GitHub](https://github.com/DavidAdam1323))
+- [Emma Nolan] ([GitHub](https://github.com/eminaction))
+- [Gavin Persad] ([GitHub](https://github.com/Gavin-Persad))
+- [Holly Massey] ([GitHub](https://github.com/hollrosey))
+- [Stephen Walker] ([GitHub](https://github.com/INFINITYX00))
+
+This project utilises React, Bootstrap, Framer Motion.
 
 ## License
 
