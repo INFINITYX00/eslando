@@ -17,6 +17,7 @@
   justify-content: space-evenly;
   border-bottom: 0;
   background-color: var(--midnight-blue);
+  
   color: var(--mainBgColour);
 }
 
