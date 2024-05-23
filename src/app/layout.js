@@ -5,7 +5,7 @@ import { Suspense } from "react";
 const inter = Open_Sans({ weight: "400", subsets: ["latin"] });
 
 export const metadata = {
-  title: "Digital Product Passport",
+  title: "Relabel | Digital Product Passport",
   description: "Discover more about your clothing.",
 };
 
