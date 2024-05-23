@@ -1,6 +1,5 @@
 # Relabel Digital Product Passport
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ![GitHub last commit](https://img.shields.io/github/last-commit/INFINITYX00/eslando)
 ![GitHub contributors](https://img.shields.io/github/contributors/INFINITYX00/eslando)
 ![GitHub issues](https://img.shields.io/github/issues/INFINITYX00/eslando)
@@ -28,7 +27,6 @@
 - [Support](#support)
 - [FAQs and Press Release](#FAQs-and-Press-Release)
 - [Credits](#credits)
-- [License](#license)
 
 ## Screenshots
 
@@ -137,6 +135,3 @@ Team Mirai are the creators of the project:
 
 This project utilises React, Bootstrap, Framer Motion.
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
