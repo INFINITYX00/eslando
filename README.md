@@ -83,13 +83,13 @@ The Relabel Digital Product Passport for Eslando stands out due to its user-cent
 
 ## Future Enhancements
 
-In the future, we plan to enhance the Relabel Digital Product Passport for Eslando by:
+We are committed to continuously improving the Relabel Digital Product Passport to provide an enhanced and comprehensive experience for our users. Our future plans include:
 
-- Integration with External Databases and APIs to provide up-to-date and comprehensive product information, enhancing the user experience and reliability of the platform.
-- Adding support for additional product categories and certifications
-- Improving accessibility features for users with disabilities
-- Integrating machine learning algorithms for predictive analytics on recycling trends
-- Secure authentication and authorization system
+- Map Feature: Introduce a map feature to simplify the process of locating recycling centers. This enhancement will significantly improve user experience by providing a convenient way to find nearby recycling facilities.
+- Save Products Feature: Implement a 'Save Products' feature, allowing users to bookmark their favorite clothes. This feature will enhance user engagement and retention by providing easy access to preferred items.
+- Customisation Options: Enable companies to tailor the app to match the style of their website and products. By offering this level of customisation, we can ensure a more seamless and tailored experience for our users, boosting satisfaction and engagement.
+- Integration with External Databases and APIs: Integrate with external databases and APIs to provide up-to-date and comprehensive product information, enhancing the user experience and reliability of the platform.
+- Improved Accessibility Features: Enhance accessibility features to ensure the platform is usable by individuals with disabilities, making our digital product passports more inclusive.
 
 ## Accessing the Deployed Application
 
